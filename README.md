@@ -1,5 +1,5 @@
 # RevampedUserArea
-Makes the user area more compact and puts it in the top left.
+A compact, better looking user area.
 
 ![Preview](./Previews/AreaPreview.png)
 
