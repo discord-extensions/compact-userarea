@@ -1,0 +1,9 @@
+{
+    "name": "Revamped User Area",
+    "description": "Makes the user area more compact and puts it in the top left.",
+    "version": "1.0.0",
+    "author": "LuckFire#4800",
+    "theme": "index.css",
+    "consent": "false",
+    "license": "MIT"
+}
