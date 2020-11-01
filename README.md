@@ -14,3 +14,6 @@ If you're using Bottom Bar (another theme made by me), this is most likely going
 ```
 git clone --single-branch --branch BottomBar https://github.com/LuckFire/RevampedUserArea
 ```
+
+# Issues
+If you're having issues where the top left is blank, if you have Hoofer's Sidebar Zoom (https://github.com/HooferDevelops/sidebar-zoom), please disable that and check again. If you're still having issues, make and issue request, ping me in the Powercord server or DM me on Discord.
