@@ -10,7 +10,7 @@ git clone https://github.com/LuckFire/RevampedUserArea
 ```
 
 # Other Support Installation
-If you're using Bottom Bar (another theme made by me), this is most likely going to break. I've made a separate version for it, so if you're using Bottom Bar, install this instead.
+If you're using Bottom Bar (another theme made by me), this is most likely going to break. I've made a separate version for it, so if you're using Bottom Bar, install this instead by going to **Themes -> Open CMD / Powershell / Terminal / Gitbash** and entering the following:
 ```
 git clone --single-branch --branch BottomBar https://github.com/LuckFire/RevampedUserArea
 ```
