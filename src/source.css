@@ -11,9 +11,16 @@
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
     position: fixed;
     z-index: 5;
-    top: 23px;
     left: 8px;
 }
+.platform-win .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp,
+.platform-osx .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+    top: 23px;
+}
+.platform-linux .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+    top: 5px;
+}
+
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp::after {
     content: "";
     background: var(--background-tertiary);
@@ -71,7 +78,6 @@
     background-color: var(--background-secondary-alt);
     opacity: 0;
     border-radius: 0 5px 5px 0;
-    top: 33px;
     width: 85px;
     padding: 2px 0 2px 0;
     padding-left: 20px;
@@ -84,9 +90,8 @@
     border-radius: 5px;
     max-width: 104px;
     padding: 2px 0 2px 0;
-    margin-left: -10px;
+    margin-left: 65px;
     z-index: 5;
-    top: 33px;
     opacity: 0;
     transition: 250ms ease;
 }
@@ -100,6 +105,17 @@
     padding-left: 20px;
     top: 12px;
     left: -2px;
+}
+
+.platform-win .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-win .nameTag-3uD-yy ~ .flex-1xMQg5,
+.platform-osx .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-osx .nameTag-3uD-yy ~ .flex-1xMQg5 {
+    top: 33px;
+}
+.platform-linux .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-linux .nameTag-3uD-yy ~ .flex-1xMQg5 {
+    top: 15px;
 }
 
 .panels-j1Uci_ > .container-3baos1 { /* ty Creation's#0001 */
