@@ -90,6 +90,7 @@
     padding: 2px 0 2px 0;
     padding-left: 20px;
     margin-left: 75px;
+    height: 32px;
 }
 
 .nameTag-3uD-yy ~ .flex-1xMQg5 {
@@ -154,4 +155,9 @@
 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:hover {
     opacity: 1;
     transition: 250ms ease;
+}
+
+/* whole tooltip */
+.panels-j1Uci_ > .container-3baos1:last-child {
+    z-index: 4px;
 }
