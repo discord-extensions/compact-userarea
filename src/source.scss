@@ -12,7 +12,6 @@
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
     position: fixed;
     z-index: 5;
-    top: 23px;
     left: 8px;
 
     & > .avatar-SmRMf2:not(.spotify-cover) {
@@ -22,10 +21,19 @@
     &::after {
         content: "";
         background: var(--background-tertiary);
-        padding-top: 45px;
+        padding-top: 48px;
         padding-left: 72px;
         margin-left: -8px;
     }
+}
+
+.platform-win, .platform-osx {
+    & .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+        top: 23px;
+    }
+}
+.platform-linux .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp {
+    top: 5px;
 }
 
 
@@ -90,9 +98,8 @@
     border-radius: 5px;
     max-width: 104px;
     padding: 2px 0 2px 0;
-    margin-left: -10px;
+    margin-left: 65px;
     z-index: 5;
-    top: 33px;
     opacity: 0;
     transition: 250ms ease;
 
@@ -107,6 +114,17 @@
         top: 10px;
         left: -2px;
     }
+}
+
+.platform-win, 
+.platform-osx {
+    & .nameTag-3uD-yy.canCopy-2VBT7N, .nameTag-3uD-yy ~ .flex-1xMQg5 {
+        top: 33px;
+    }
+}
+.platform-linux .nameTag-3uD-yy.canCopy-2VBT7N,
+.platform-linux .nameTag-3uD-yy ~ .flex-1xMQg5 {
+    top: 15px;
 }
 
 .panels-j1Uci_ {  
