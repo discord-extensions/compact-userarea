@@ -16,4 +16,10 @@ git clone --single-branch --branch BottomBar https://github.com/LuckFire/Revampe
 ```
 
 # Issues
-If you're having issues where the top left is blank, if you have Hoofer's Sidebar Zoom (https://github.com/HooferDevelops/sidebar-zoom), please disable that and check again. If you're still having issues, make and issue request, ping me in the Powercord server or DM me on Discord.
+Here is a list of plugins/themes/css that can cause issues with this addon. If you're still having issues, make and issue request, ping me in the Powercord server or DM me on Discord.
+
+- If the top left is blank, it's most likely because you have Hoofer's Sidebar Zoom (https://github.com/HooferDevelops/sidebar-zoom)
+- If the status picker icons are enlarged and misplaced, it's most likely because you ahve Compact status Menu.
+- Anything else that messes with the status picker/voice acitity things/avatar.
+
+Make sure you check all of the above before messaging me or making a PR on this repo.

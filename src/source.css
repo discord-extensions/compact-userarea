@@ -32,7 +32,6 @@
     padding: 6px;
 }
 
-
 /* Status Picker */
 #popout_8 > .animatorBottom-fS5rNO {
     transition: none;
@@ -82,9 +81,10 @@
     padding: 2px 0 2px 0;
     padding-left: 20px;
     margin-left: 75px;
+    height: 32px;
 }
 
-.nameTag-3uD-yy ~ .flex-1xMQg5 {
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     position: fixed !important;
     background-color: var(--background-secondary-alt);
     border-radius: 5px;
@@ -95,7 +95,7 @@
     opacity: 0;
     transition: 250ms ease;
 }
-.nameTag-3uD-yy ~ .flex-1xMQg5::before {
+.nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons)::before {
     content: "";
     position: absolute;
     z-index: -2;
@@ -108,13 +108,13 @@
 }
 
 .platform-win .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-win .nameTag-3uD-yy ~ .flex-1xMQg5,
+.platform-win .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons),
 .platform-osx .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-osx .nameTag-3uD-yy ~ .flex-1xMQg5 {
+.platform-osx .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     top: 33px;
 }
 .platform-linux .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-linux .nameTag-3uD-yy ~ .flex-1xMQg5 {
+.platform-linux .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     top: 15px;
 }
 
@@ -135,9 +135,12 @@
 
 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
-.nameTag-3uD-yy.canCopy-2VBT7N:hover ~ .flex-1xMQg5,
-.avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5,
-.avatarWrapper-2yR4wp ~ .flex-1xMQg5:hover {
+.nameTag-3uD-yy.canCopy-2VBT7N:hover ~ .flex-1xMQg5:not(.spotify-buttons),
+.avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons),
+.avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
     transition: 250ms ease;
+}
+.panels-j1Uci_ > .container-3baos1:last-child {
+    z-index: 4;
 }
