@@ -19,6 +19,7 @@ git clone --single-branch --branch BottomBar https://github.com/LuckFire/Revampe
 Here is a list of plugins/themes/css that can cause issues with this addon. If you're still having issues, make and issue request, ping me in the Powercord server or DM me on Discord.
 
 - If the top left is blank, it's most likely because you have Hoofer's Sidebar Zoom (https://github.com/HooferDevelops/sidebar-zoom)
+- Harmony Discord breaks everything with it (https://github.com/KraXen72/harmony-discord). 
 - If the status picker icons are enlarged and misplaced, it's most likely because you ahve Compact status Menu.
 - Anything else that messes with the status picker/voice acitity things/avatar.
 
