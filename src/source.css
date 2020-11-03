@@ -24,7 +24,7 @@
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp::after {
     content: "";
     background: var(--background-tertiary);
-    padding: 45px 0 72px 0;
+    padding: 45px 0 0 72px;
     margin-left: -8px;
 }
 .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2:not(.spotify-cover) {
@@ -79,7 +79,6 @@
     margin-left: 75px;
     opacity: 0;
     transition: 150ms ease;
-    transition-delay: 2s;
 }
 
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
@@ -92,7 +91,6 @@
     margin-left: -10px;
     opacity: 0;
     transition: 150ms ease;
-    transition-delay: 2s;
 }
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons)::before {
     content: "";
@@ -116,10 +114,12 @@
     top: 15px;
 }
 
-.panels-j1Uci_ > div:last-child { /* ty Creation's */
-   height: 0;
-   width: 0;
-   margin-bottom: -2px
+.panels-j1Uci_ > .container-3baos1 { /* ty Creation's#0001 */
+    height: 0;
+    width: 0
+}
+.panels-j1Uci_ > .activityPanel-28dQGo {
+    margin-bottom: -2px
 }
 .panels-j1Uci_ .hoverRoll-YK53gQ .customStatus-3tC2ig { /* ty botato */
     opacity: 0;
@@ -136,7 +136,6 @@
 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
     transition: 150ms ease;
-    transition-delay: 2s;
 }
 .panels-j1Uci_ > .container-3baos1:last-child {
     z-index: 4;
