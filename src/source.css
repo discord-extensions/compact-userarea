@@ -24,14 +24,12 @@
 .panels-j1Uci_ > .container-3baos1 > .avatarWrapper-2yR4wp::after {
     content: "";
     background: var(--background-tertiary);
-    padding-top: 48px;
-    padding-left: 72px;
+    padding: 45px 0 72px 0;
     margin-left: -8px;
 }
 .container-3baos1 > .avatarWrapper-2yR4wp > .avatar-SmRMf2:not(.spotify-cover) {
     padding: 6px;
 }
-
 
 /* Status Picker */
 #popout_8 > .animatorBottom-fS5rNO {
@@ -40,18 +38,16 @@
 
 #status-picker {
     width: 44.5px;
-    margin-top: -9px;
-    margin-left: 7px;
+    margin: -9px 0 0 7px;
 }
 #status-picker::before {
     content: "";
     position: absolute;
     z-index: -1;
     background-color: inherit;
-    transform: rotate(45deg);
-    padding-top: 15px;
-    padding-left: 20px;
+    padding: 15px 0 0 20px;
     margin-left: 13px;
+    transform: rotate(45deg);
 }
 
 .statusItem-33LqPf > .icon-1IxfJ2 {
@@ -76,33 +72,35 @@
     position: fixed;
     z-index: 5;
     background-color: var(--background-secondary-alt);
-    opacity: 0;
     border-radius: 0 5px 5px 0;
+    height: 32px;
     width: 85px;
-    padding: 2px 0 2px 0;
-    padding-left: 20px;
+    padding: 2px 0 2px 20px;
     margin-left: 75px;
+    opacity: 0;
+    transition: 150ms ease;
+    transition-delay: 2s;
 }
 
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     position: fixed !important;
+    z-index: 5;
     background-color: var(--background-secondary-alt);
     border-radius: 5px;
     max-width: 104px;
     padding: 2px 0 2px 0;
-    margin-left: 65px;
-    z-index: 5;
+    margin-left: -10px;
     opacity: 0;
-    transition: 250ms ease;
+    transition: 150ms ease;
+    transition-delay: 2s;
 }
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons)::before {
     content: "";
-    position: absolute;
     z-index: -2;
+    position: absolute;
     background: inherit;
     transform: rotate(50deg);
-    padding-top: 15px;
-    padding-left: 20px;
+    padding: 15px 0 0 20px;
     top: 12px;
     left: -2px;
 }
@@ -118,6 +116,13 @@
     top: 15px;
 }
 
+.panels-j1Uci_ > .container-3baos1 { /* ty Creation's#0001 */
+    height: 0;
+    width: 0
+}
+.panels-j1Uci_ > .activityPanel-28dQGo {
+    margin-bottom: -2px
+}
 .panels-j1Uci_ .hoverRoll-YK53gQ .customStatus-3tC2ig { /* ty botato */
     opacity: 0;
 }
@@ -132,5 +137,9 @@
 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons),
 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
-    transition: 250ms ease;
+    transition: 150ms ease;
+    transition-delay: 2s;
+}
+.panels-j1Uci_ > .container-3baos1:last-child {
+    z-index: 4;
 }
