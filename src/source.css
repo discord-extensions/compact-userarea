@@ -116,12 +116,10 @@
     top: 15px;
 }
 
-.panels-j1Uci_ > .container-3baos1 { /* ty Creation's#0001 */
-    height: 0;
-    width: 0
-}
-.panels-j1Uci_ > .activityPanel-28dQGo {
-    margin-bottom: -2px
+.panels-j1Uci_ > div:last-child { /* ty Creation's */
+   height: 0;
+   width: 0;
+   margin-bottom: -2px
 }
 .panels-j1Uci_ .hoverRoll-YK53gQ .customStatus-3tC2ig { /* ty botato */
     opacity: 0;
