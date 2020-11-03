@@ -68,6 +68,10 @@
 
 
 /* Voice Actions and Settings */
+.notice-3bPHh- {
+    z-index: 4;
+}
+
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     position: fixed !important;
     z-index: 5;
