@@ -68,29 +68,16 @@
 
 
 /* Voice Actions and Settings */
-.nameTag-3uD-yy.canCopy-2VBT7N {
-    position: fixed;
-    z-index: 5;
-    background-color: var(--background-secondary-alt);
-    border-radius: 0 5px 5px 0;
-    height: 32px;
-    width: 85px;
-    padding: 2px 0 2px 20px;
-    margin-left: 75px;
-    opacity: 0;
-    transition: 150ms ease;
-}
-
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons) {
     position: fixed !important;
     z-index: 5;
     background-color: var(--background-secondary-alt);
+    transition: 150ms ease;
     border-radius: 5px;
-    max-width: 104px;
     padding: 2px 0 2px 0;
     margin-left: -10px;
     opacity: 0;
-    transition: 150ms ease;
+    pointer-events: none;
 }
 .nameTag-3uD-yy ~ .flex-1xMQg5:not(.spotify-buttons)::before {
     content: "";
@@ -114,27 +101,13 @@
     top: 15px;
 }
 
-.panels-j1Uci_ > .container-3baos1 { /* ty Creation's#0001 */
-    height: 0;
-    width: 0
-}
-.panels-j1Uci_ > .activityPanel-28dQGo {
-    margin-bottom: -2px
-}
-.panels-j1Uci_ .hoverRoll-YK53gQ .customStatus-3tC2ig { /* ty botato */
-    opacity: 0;
-}
-.panels-j1Uci_ .hoverRoll-YK53gQ .hovered-d5PMVU {
-    opacity: 1;
-    transform: none;
-}
-
 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
 .nameTag-3uD-yy.canCopy-2VBT7N:hover ~ .flex-1xMQg5:not(.spotify-buttons),
 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons),
 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
+    pointer-events: all;
     transition: 150ms ease;
 }
 .panels-j1Uci_ > .container-3baos1:last-child {
