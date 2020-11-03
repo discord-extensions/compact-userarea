@@ -1,7 +1,7 @@
 # RevampedUserArea
 A compact, better looking user area.
 
-![Preview](./Previews/AreaPreview.png)
+![Preview](./Previews/AreaPreviewV2.png)
 
 # Installation
 For installation, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
