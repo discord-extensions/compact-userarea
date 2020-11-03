@@ -103,7 +103,6 @@
 
 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
-.nameTag-3uD-yy.canCopy-2VBT7N:hover ~ .flex-1xMQg5:not(.spotify-buttons),
 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons),
 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
