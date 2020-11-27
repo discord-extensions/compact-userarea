@@ -116,3 +116,12 @@
 .panels-j1Uci_ > .container-3baos1:last-child {
     z-index: 4;
 }
+
+
+/* Title Bar z-index Fix */
+.titleBar-AC4pGV {
+    z-index: 2;
+}
+.tooltip-2QfLtc.tooltipTop-XDDSxx {
+    z-index: 3;
+}
