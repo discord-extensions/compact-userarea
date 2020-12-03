@@ -1,4 +1,4 @@
-# RevampedUserArea
+# Revamped User Area
 A compact, better looking user area.
 
 ![Preview](./Previews/AreaPreviewV2.png)
