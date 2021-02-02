@@ -1,0 +1,13 @@
+.platform- {
+    &win {
+        @include osChange(35px, 20px);
+    }
+
+    &osx {
+        @include osChange(38px, 25px);
+    }
+
+    &linux, &web {
+        @include osChange(18px, 5px);
+    }
+}

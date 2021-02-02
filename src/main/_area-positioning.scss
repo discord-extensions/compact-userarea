@@ -1,0 +1,28 @@
+#app-mount {
+    // Guilds List
+    .guilds-1SWlCJ {
+        padding-top: 60px;
+    }
+
+    // Avatar
+    .container-3baos1 .avatarWrapper-2yR4wp { 
+        position: fixed;
+        left: 4px;
+
+        .avatar-SmRMf2:not(.spotify-cover) {
+            padding: 8px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            background-color: transparent;
+            border-radius: 25px;
+            height: 50px;
+            width: 58px;
+            top: 7px;
+            left: 10px;
+        }
+    }
+}
