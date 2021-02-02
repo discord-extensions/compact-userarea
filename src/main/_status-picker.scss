@@ -1,0 +1,52 @@
+#app-mount #status-picker {
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 12px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: inherit;
+        padding: 15px 0 0 20px;
+        transform: rotate(45deg);
+        left: 12px;
+        z-index: -1;
+    }
+
+    .scroller-3BxosC {
+        &::-webkit-scrollbar, .separator-2I32lJ {
+            display: none;
+        }
+
+        .item-1tOPte {
+            padding-left: 2px;
+            right: 5px;
+            left: -4px;
+            
+            &.focused-3afm-j#status-picker-custom-status div .customStatusWithEmoji-8-XZ8I {
+                .emoji {
+                    display: none;
+                }
+
+                .clearStatusButton-1Mxs1q {
+                    visibility: visible;
+                }
+            }
+
+            .statusItem-33LqPf {
+                &:not([aria-label="Set a custom status"]):not(.customStatusWithEmoji-8-XZ8I) {
+                    margin-left: 1px;
+                }
+
+                .clearStatusButton-1Mxs1q {
+                    margin-left: -60px;
+                    visibility: hidden;
+                }
+                
+                .status-1fhblQ, .description-2L932D {
+                    display: none;
+                }
+            }
+        }
+    }
+}
