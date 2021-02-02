@@ -1,5 +1,6 @@
 # Revamped User Area
 A compact, better looking, user area.
+
 ![Preview](./Previews/AreaPreview.png)
 
 # Installation & Updating
