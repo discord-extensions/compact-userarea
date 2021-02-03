@@ -1,0 +1,165 @@
+/**
+    * @name Revamped User Area
+    * @version 1.2.0
+    * @description Makes the user area more compact and puts it in the top left.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/RevampedUserArea/tree/main/src
+**/
+
+.theme-dark:root {
+    --popout-color: #18191C;
+}
+
+.theme-light:root {
+    --popout-color: #FFFFFF;
+}
+
+.platform-win .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+.platform-win .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+    top: 35px;
+}
+.platform-win .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+    top: 20px;
+}
+.platform-osx .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+.platform-osx .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+    top: 38px;
+}
+.platform-osx .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+    top: 25px;
+}
+.platform-linux .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+.platform-linux .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy,
+.platform-web .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+.platform-web .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+    top: 18px;
+}
+.platform-linux .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
+.platform-web .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+    top: 5px;
+}
+
+#app-mount .guilds-1SWlCJ {
+    padding-top: 60px;
+}
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    position: fixed;
+    left: 4px;
+}
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp .avatar-SmRMf2:not(.spotify-cover) {
+    padding: 8px;
+}
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: transparent;
+    border-radius: 25px;
+    height: 50px;
+    width: 58px;
+    top: 7px;
+    left: 10px;
+}
+
+#app-mount .panels-j1Uci_ .container-3baos1 {
+    height: 0;
+    width: 0;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .activityPanel-28dQGo {
+    margin-bottom: -2px;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
+    position: fixed;
+    z-index: 5;
+    background-color: var(--popout-color);
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    max-width: 100px;
+    width: 100px;
+    opacity: 0;
+    margin-left: -10px;
+    pointer-events: none;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons)::before {
+    content: "";
+    z-index: 0;
+    position: absolute;
+    background: inherit;
+    transform: rotate(50deg);
+    padding: 15px 0 0 20px;
+    top: 13px;
+    left: -2px;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+    position: fixed;
+    z-index: 5;
+    background-color: var(--popout-color);
+    opacity: 0;
+    border-radius: 0 5px 5px 0;
+    width: 85px;
+    padding: 2px 0 2px 10px;
+    margin-left: 97px;
+    pointer-events: none;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons) {
+    opacity: 1;
+    pointer-events: all;
+    transition: 250ms ease;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
+    opacity: 1;
+    pointer-events: all;
+    transition: 250ms ease;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .hoverRoll-YK53gQ .customStatus-3tC2ig {
+    opacity: 0;
+}
+#app-mount .panels-j1Uci_ .container-3baos1 .hoverRoll-YK53gQ .hovered-d5PMVU {
+    opacity: 1;
+    transform: none;
+}
+
+#app-mount #status-picker {
+    width: 40px;
+    margin-top: 5px;
+    margin-left: 12px;
+}
+#app-mount #status-picker::before {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    padding: 15px 0 0 20px;
+    transform: rotate(45deg);
+    left: 12px;
+    z-index: -1;
+}
+#app-mount #status-picker .scroller-3BxosC::-webkit-scrollbar,
+#app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
+    display: none;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte {
+    padding-left: 2px;
+    right: 5px;
+    left: -4px;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte.focused-3afm-j#status-picker-custom-status div .customStatusWithEmoji-8-XZ8I .emoji {
+    display: none;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte.focused-3afm-j#status-picker-custom-status div .customStatusWithEmoji-8-XZ8I .clearStatusButton-1Mxs1q {
+    visibility: visible;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf:not([aria-label="Set a custom status"]):not(.customStatusWithEmoji-8-XZ8I) {
+    margin-left: 1px;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .clearStatusButton-1Mxs1q {
+    margin-left: -60px;
+    visibility: hidden;
+}
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .status-1fhblQ,
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .description-2L932D {
+    display: none;
+}
