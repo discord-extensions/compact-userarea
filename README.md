@@ -14,7 +14,7 @@ git clone https://github.com/LuckFire/RevampedUserArea
 ```
 
 For BetterDiscord:
-- [Direct Dowload](http://betterdiscord.net/ghdlshort/?url=https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
+- [Direct Dowload](https://betterdiscord.net/ghdl?id=3478)
 - [View Source](https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
 
 # Updating for Powercord
