@@ -13,13 +13,14 @@ For Powercord or Vizality installation, go to **Themes -> Open a CMD / Powershel
 git clone https://github.com/LuckFire/RevampedUserArea
 ```
 
-For BetterDiscord:
+**For BetterDiscord:**
 - [Direct Dowload](https://betterdiscord.net/ghdl?id=3478)
 - [View Source](https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
 
-For Web:
-1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), or [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+**For Browser / Web:**
+1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
 2. After installing, head over to [this link](https://raw.githubusercontent.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.user.css).
+3. Press the "Install Style" button.
 
 # Updating for Powercord
 Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> RevampedUserArea -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
