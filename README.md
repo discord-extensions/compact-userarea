@@ -14,8 +14,8 @@ git clone https://github.com/LuckFire/RevampedUserArea
 ```
 
 For BetterDiscord:
-[Direct Dowload](http://betterdiscord.net/ghdlshort/?url=https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
-[View Source](https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
+- [Direct Dowload](http://betterdiscord.net/ghdlshort/?url=https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
+- [View Source](https://raw.githack.com/LuckFire/RevampedUserArea/main/src/RevampedUserArea.theme.css)
 
 # Updating for Powercord
 Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> RevampedUserArea -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
