@@ -6,7 +6,7 @@
 </p>
 
 # Revamped User Area
-A compact, better looking, user area.
+A compact, better looking, user area. Looks best with Gibbu's [Radial Status](https://github.com/DiscordStyles/RadialStatus).
 
 ![Preview](./Previews/AreaPreview.png)
 
