@@ -125,13 +125,14 @@
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     position: fixed;
-    z-index: 5;
+    z-index: 101;
     background-color: var(--popout-color);
     opacity: 0;
     border-radius: 0 5px 5px 0;
-    width: 85px;
-    padding: 2px 0 2px 10px;
-    margin-left: 97px;
+    height: 32px;
+    width: 6%;
+    padding: 2px 10px 2px 4px;
+    margin-left: 96px;
     pointer-events: none;
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
