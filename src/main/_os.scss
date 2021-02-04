@@ -1,13 +1,16 @@
 .platform- {
     &win {
         @include osType(60px, 5px, 35px, 20px);
+        @include bdUpdate(64px, 60px, 75px);
     }
 
     &osx {
         @include osType(59px, 5px, 38px, 25px);
+        @include bdUpdate(66px, 40px, 55px);
     }
 
     &linux, &web {
         @include osType(59px, 5px, 18px, 5px);
+        @include bdUpdate(58px, 40px, 55px);
     }
 }

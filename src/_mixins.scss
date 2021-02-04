@@ -23,3 +23,21 @@
         }
     }
 }
+
+@mixin bdUpdate($guildTop, $avatarTop, $containerTop) {
+    .notice-3bPHh- ~ .layers-3iHuyZ {
+        .guilds-1SWlCJ {
+            padding-top: $guildTop;
+        }
+    
+        .panels-j1Uci_ .container-3baos1 {
+            .avatarWrapper-2yR4wp {
+                top: $avatarTop;
+            }
+
+            .flex-1xMQg5:not(.spotify-buttons), .nameTag-3uD-yy {
+                top: $containerTop;
+            }
+        }
+    }
+}

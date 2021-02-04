@@ -4,7 +4,7 @@
     @description  Makes the user area more compact and puts it in the top left.
     @author       LuckFire#400
     @namespace    github.com/LuckFire/RevampedUserArea
-    @version      1.2.4
+    @version      1.2.5
     ==/UserStyle== */
 
     .theme-dark:root {
@@ -28,6 +28,16 @@
     .platform-win .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 20px;
     }
+    .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
+        padding-top: 64px;
+    }
+    .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+        top: 60px;
+    }
+    .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+    .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+        top: 75px;
+    }
     .platform-osx .guilds-1SWlCJ {
         padding-top: 59px;
     }
@@ -40,6 +50,16 @@
     }
     .platform-osx .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 25px;
+    }
+    .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
+        padding-top: 66px;
+    }
+    .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+        top: 40px;
+    }
+    .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+    .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+        top: 55px;
     }
     .platform-linux .guilds-1SWlCJ,
     .platform-web .guilds-1SWlCJ {
@@ -58,6 +78,20 @@
     .platform-linux .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
     .platform-web .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 5px;
+    }
+    .platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ,
+    .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
+        padding-top: 58px;
+    }
+    .platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
+    .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+        top: 40px;
+    }
+    .platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+    .platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy,
+    .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
+    .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+        top: 55px;
     }
       
     #app-mount .guilds-1SWlCJ ul .scroller-2TZvBN .tutorialContainer-1v44GL {
