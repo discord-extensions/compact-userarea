@@ -4,7 +4,7 @@
     @description  Makes the user area more compact and puts it in the top left.
     @author       LuckFire#400
     @namespace    github.com/LuckFire/RevampedUserArea
-    @version      1.2.1
+    @version      1.2.2
     ==/UserStyle== */
 
     .theme-dark:root {
@@ -139,7 +139,7 @@
 
     #app-mount #status-picker {
         width: 40px;
-        margin-top: 5px;
+        top: -20px;
         margin-left: 12px;
     }
     #app-mount #status-picker::before {
