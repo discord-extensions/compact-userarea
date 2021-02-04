@@ -1,3 +1,6 @@
+# v1.2.5
+Fixes for when the BD notice pops up for an update.
+
 # v1.2.4
 I really need to learn how to NOT push changes unless I'M CERTAIN that shit is actually completely fixed.. 
 - Fixed where on web the height of the name tag container would be 2px too short.
