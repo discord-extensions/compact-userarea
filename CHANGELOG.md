@@ -1,3 +1,12 @@
+# v1.2.3
+Positioning fixes for different operating system types.
+
+# v1.2.2
+Positioning fix for the status picker.
+
+# v1.2.1
+Added a separator below the user's avatar.
+
 # v1.2.0
 Recently I have recoded this to use SCSS, mainly for maintainability ~~(and the sake of my sanity).~~ Some other changes are:
 - Bottom Bar support is basically gone (or well I won't be maintaining the branch anymore) because I'm too lazy to.
