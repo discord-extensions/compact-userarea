@@ -2,18 +2,25 @@
     // Guilds List
     .guilds-1SWlCJ {
         padding-top: 60px;
+
+        ul .scroller-2TZvBN .tutorialContainer-1v44GL {
+            padding-top: 8px;
+        }
     }
 
     // Avatar
     .container-3baos1 .avatarWrapper-2yR4wp { 
+        background-color: var(--background-tertiary);
         position: fixed;
+        padding-bottom: 25px;
+        padding-right: 15px;
         left: 4px;
 
         .avatar-SmRMf2:not(.spotify-cover) {
             padding: 8px;
         }
 
-        &::after {
+        &::before {
             content: "";
             position: absolute;
             z-index: -1;
@@ -23,6 +30,16 @@
             width: 58px;
             top: 7px;
             left: 10px;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: var(--background-modifier-accent);
+            bottom: 6px;
+            left: 25%;
+            height: 2px;
+            width: 32px;
         }
     }
 }
