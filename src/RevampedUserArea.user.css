@@ -4,17 +4,23 @@
     @description  Makes the user area more compact and puts it in the top left.
     @author       LuckFire#400
     @namespace    github.com/LuckFire/RevampedUserArea
-    @version      1.2.2
+    @version      1.2.3
     ==/UserStyle== */
 
     .theme-dark:root {
         --popout-color: #18191C;
     }
-
+      
     .theme-light:root {
         --popout-color: #FFFFFF;
     }
-
+      
+    .platform-win .guilds-1SWlCJ {
+        padding-top: 60px;
+    }
+    .platform-win .container-3baos1 .avatarWrapper-2yR4wp::after {
+        bottom: 5px;
+    }
     .platform-win .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
     .platform-win .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
         top: 35px;
@@ -22,12 +28,26 @@
     .platform-win .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 20px;
     }
+    .platform-osx .guilds-1SWlCJ {
+        padding-top: 59px;
+    }
+    .platform-osx .container-3baos1 .avatarWrapper-2yR4wp::after {
+        bottom: 5px;
+    }
     .platform-osx .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
     .platform-osx .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
         top: 38px;
     }
     .platform-osx .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 25px;
+    }
+    .platform-linux .guilds-1SWlCJ,
+    .platform-web .guilds-1SWlCJ {
+        padding-top: 59px;
+    }
+    .platform-linux .container-3baos1 .avatarWrapper-2yR4wp::after,
+    .platform-web .container-3baos1 .avatarWrapper-2yR4wp::after {
+        bottom: 5px;
     }
     .platform-linux .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
     .platform-linux .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy,
@@ -39,17 +59,14 @@
     .platform-web .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
         top: 5px;
     }
-
-    #app-mount .guilds-1SWlCJ {
-        padding-top: 60px;
-      }
+      
     #app-mount .guilds-1SWlCJ ul .scroller-2TZvBN .tutorialContainer-1v44GL {
         padding-top: 8px;
-      }
+    }
     #app-mount .container-3baos1 .avatarWrapper-2yR4wp {
         background-color: var(--background-tertiary);
         position: fixed;
-        padding-bottom: 25px;
+        padding-bottom: 23px;
         padding-right: 15px;
         left: 4px;
     }
@@ -71,12 +88,11 @@
         content: "";
         position: absolute;
         background-color: var(--background-modifier-accent);
-        bottom: 6px;
         left: 25%;
         height: 2px;
         width: 32px;
     }
-
+      
     #app-mount .panels-j1Uci_ .container-3baos1 {
         height: 0;
         width: 0;
@@ -136,7 +152,7 @@
         opacity: 1;
         transform: none;
     }
-
+      
     #app-mount #status-picker {
         width: 40px;
         top: -20px;

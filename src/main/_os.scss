@@ -1,13 +1,13 @@
 .platform- {
     &win {
-        @include osChange(35px, 20px);
+        @include osType(60px, 5px, 35px, 20px);
     }
 
     &osx {
-        @include osChange(38px, 25px);
+        @include osType(59px, 5px, 38px, 25px);
     }
 
     &linux, &web {
-        @include osChange(18px, 5px);
+        @include osType(59px, 5px, 18px, 5px);
     }
 }

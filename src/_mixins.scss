@@ -4,7 +4,15 @@
     transition: 250ms ease;
 }
 
-@mixin osChange($containerTop, $avatarTop) {
+@mixin osType($guildTop, $separatorBottom, $containerTop, $avatarTop) {
+    .guilds-1SWlCJ {
+        padding-top: $guildTop;
+    }
+
+    .container-3baos1 .avatarWrapper-2yR4wp::after {
+        bottom: $separatorBottom;
+    }
+
     .panels-j1Uci_ .container-3baos1 { 
         .flex-1xMQg5:not(.spotify-buttons), .nameTag-3uD-yy {
             top: $containerTop;
