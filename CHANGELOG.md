@@ -1,3 +1,8 @@
+# v1.2.4
+I really need to learn how to NOT push changes unless I'M CERTAIN that shit is actually completely fixed.. 
+- Fixed where on web the height of the name tag container would be 2px too short.
+- Made width for name tag container a bit longer.
+
 # v1.2.3
 Positioning fixes for different operating system types.
 
