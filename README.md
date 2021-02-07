@@ -34,7 +34,7 @@ git pull
 # Support for BottomBar
 If you're using [BottomBar](https://github.com/LuckFire/BottomBar) (another theme add-on by me), there will be compatibility issues. In order to fix this, head over to `./src/_base.scss`, open the file then add a new line at the bottom that is:
 ```css
-@import "./bottombar-support";
+@import "./support/bottombar-support";
 ```
 
 # Issues
