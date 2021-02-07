@@ -31,6 +31,12 @@ Since Powercord's updater is currently broken, you have to update the theme manu
 git pull
 ```
 
+# Support for BottomBar
+If you're using [BottomBar](https://github.com/LuckFire/BottomBar) (another theme add-on by me), there will be compatibility issues. In order to fix this, head over to `./src/_base.scss`, open the file then add a new line at the bottom that is:
+```css
+@import "./bottombar-support";
+```
+
 # Issues
 Here is a list of plugins/themes/css that can cause issues with this addon. If you're still having issues, you can either make an issue request, ping me in the Powercord server, or DM me on Discord.
 
