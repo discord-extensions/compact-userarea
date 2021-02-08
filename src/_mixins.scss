@@ -4,7 +4,7 @@
     transition: 250ms ease;
 }
 
-@mixin osType($guildTop, $separatorBottom, $containerTop, $avatarTop) {
+@mixin osType($guildTop, $separatorBottom, $containerTop, $avatarTop, $unreadTop) {
     .guilds-1SWlCJ {
         padding-top: $guildTop;
     }
@@ -21,6 +21,10 @@
         .avatarWrapper-2yR4wp {
             top: $avatarTop;
         }
+    }
+
+    .unreadMentionsIndicatorTop-gA6RCh {
+        margin-top: $unreadTop;
     }
 }
 

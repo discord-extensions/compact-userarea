@@ -1,6 +1,6 @@
 /**
     * @name Revamped User Area
-    * @version 1.2.5
+    * @version 1.2.6
     * @description Makes the user area more compact and puts it in the top left.
     * @author LuckFire#4800
     *
@@ -22,12 +22,14 @@
 .platform-win .container-3baos1 .avatarWrapper-2yR4wp::after {
     bottom: 5px;
 }
-.platform-win .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-win .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-win .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-win .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 35px;
 }
 .platform-win .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 20px;
+}
+.platform-win .unreadMentionsIndicatorTop-gA6RCh {
+    margin-top: 63px;
 }
 .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
     padding-top: 64px;
@@ -35,8 +37,7 @@
 .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 60px;
 }
-.platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-win .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 75px;
 }
 .platform-osx .guilds-1SWlCJ {
@@ -45,12 +46,14 @@
 .platform-osx .container-3baos1 .avatarWrapper-2yR4wp::after {
     bottom: 5px;
 }
-.platform-osx .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-osx .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-osx .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-osx .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 38px;
 }
 .platform-osx .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 25px;
+}
+.platform-osx .unreadMentionsIndicatorTop-gA6RCh {
+    margin-top: 58px;
 }
 .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
     padding-top: 66px;
@@ -58,40 +61,31 @@
 .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 40px;
 }
-.platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-osx .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 55px;
 }
-.platform-linux .guilds-1SWlCJ,
-.platform-web .guilds-1SWlCJ {
+.platform-linux .guilds-1SWlCJ, .platform-web .guilds-1SWlCJ {
     padding-top: 59px;
 }
-.platform-linux .container-3baos1 .avatarWrapper-2yR4wp::after,
-.platform-web .container-3baos1 .avatarWrapper-2yR4wp::after {
+.platform-linux .container-3baos1 .avatarWrapper-2yR4wp::after, .platform-web .container-3baos1 .avatarWrapper-2yR4wp::after {
     bottom: 5px;
 }
-.platform-linux .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-linux .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy,
-.platform-web .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-web .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-linux .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-linux .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy, .platform-web .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-web .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 18px;
 }
-.platform-linux .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
-.platform-web .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+.platform-linux .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp, .platform-web .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 5px;
 }
-.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ,
-.platform-web .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
+.platform-linux .unreadMentionsIndicatorTop-gA6RCh, .platform-web .unreadMentionsIndicatorTop-gA6RCh {
+    margin-top: 70px;
+}
+.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ, .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .guilds-1SWlCJ {
     padding-top: 58px;
 }
-.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
-.platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
+.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp, .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp {
     top: 40px;
 }
-.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy,
-.platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons),
-.platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+.platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-linux .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy, .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons), .platform-web .notice-3bPHh- ~ .layers-3iHuyZ .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
     top: 55px;
 }
   
@@ -169,14 +163,12 @@
     margin-left: 96px;
     pointer-events: none;
 }
-#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N,
-#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons) {
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .nameTag-3uD-yy.canCopy-2VBT7N, #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons) {
     opacity: 1;
     pointer-events: all;
     transition: 250ms ease;
 }
-#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover,
-#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
+#app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N:hover, #app-mount .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
     pointer-events: all;
     transition: 250ms ease;
@@ -203,8 +195,7 @@
     left: 12px;
     z-index: -1;
 }
-#app-mount #status-picker .scroller-3BxosC::-webkit-scrollbar,
-#app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
+#app-mount #status-picker .scroller-3BxosC::-webkit-scrollbar, #app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
     display: none;
 }
 #app-mount #status-picker .scroller-3BxosC .item-1tOPte {
@@ -225,7 +216,6 @@
     margin-left: -60px;
     visibility: hidden;
 }
-#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .status-1fhblQ,
-#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .description-2L932D {
+#app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .status-1fhblQ, #app-mount #status-picker .scroller-3BxosC .item-1tOPte .statusItem-33LqPf .description-2L932D {
     display: none;
 }
