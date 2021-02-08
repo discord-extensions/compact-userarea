@@ -1,3 +1,6 @@
+# v1.2.6
+Fixes for where the unread ping indicator wouldn't be positioned properly.
+
 # v1.2.5
 Fixes for when the BD notice pops up for an update.
 
