@@ -13,7 +13,7 @@ A compact, better looking, user area. Looks best with Gibbu's [Radial Status](ht
 # Installation
 For Powercord or Vizality installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
-git clone https://github.com/LuckFire/revamped-userarea
+git clone https://github.com/Discord-Theme-Addons/revamped-userarea
 ```
 
 **For BetterDiscord:**
