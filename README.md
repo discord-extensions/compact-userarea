@@ -47,8 +47,3 @@ Here is a list of plugins/themes/css that can cause issues with this addon. If y
 - Anything else that messes with the status picker/action buttons/avatar.
 
 Make sure you check all of the above before messaging me or making a PR on this repo.
-
-# Credits
-[@dperolio](https://github.com/dperolio) for the very cool and amazing [vizality banner template](https://www.figma.com/community/file/937081422569421176).
-
-[@snappercord](https://github.com/snappercord) for helping me with making the banner as well as adding support for vizality, betterdiscord, and web.
