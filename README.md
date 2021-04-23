@@ -3,7 +3,7 @@
 # Revamped User Area
 A compact, better looking, user area. This addon looks best with Gibbu's [Radial Status](https://github.com/DiscordStyles/RadialStatus).
 
-![Preview](./assets/preview.png)
+![Preview](./screenshots/preview.png)
 
 # Installation
 For Powercord or Vizality installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
