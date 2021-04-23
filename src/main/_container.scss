@@ -1,70 +1,111 @@
-#app-mount .panels-j1Uci_ .container-3baos1 {
-    height: 0;
-    width: 0;
-
-    .activityPanel-28dQGo {
-        margin-bottom: -2px
+#app-mount {
+    // z-index stupidity
+    .container-1taM1r,
+    .searchBar-6Kv8R2 {
+        z-index: 1;
     }
 
-    .flex-1xMQg5:not(.spotify-buttons) {
-        position: fixed;
-        z-index: 5;
-        background-color: var(--popout-color);
-        border-radius: 5px;
-        padding: 2px 5px 2px 5px;
-        max-width: 100px;
-        width: 100px;
-        opacity: 0;
-        margin-left: -10px;
-        pointer-events: none;
+    .container-3baos1 {
+        height: 0;
+
+        // avatar
+        .avatarWrapper-2yR4wp {
+            --avatar-size: 48px;
+            position: fixed;
+            left: 12px;
     
-        &::before {
-            content: "";
-            z-index: 0;
-            position: absolute;
-            background: inherit;
-            transform: rotate(50deg);
-            padding: 15px 0 0 20px;
-            top: 13px;
-            left: -2px;
-        }
-    }
-    
-    .nameTag-3uD-yy {
-        position: fixed;
-        z-index: 101;
-        background-color: var(--popout-color);
-        opacity: 0;
-        border-radius: 0 5px 5px 0;
-        height: 32px;
-        width: 6%;
-        padding: 2px 10px 2px 4px;
-        margin-left: 96px;
-        pointer-events: none;
-    }
-
-    .avatarWrapper-2yR4wp {
-        &:hover {
-            ~ .nameTag-3uD-yy.canCopy-2VBT7N, ~ .flex-1xMQg5:not(.spotify-buttons) {
-                @include animation();
+            .wrapper-3t9DeA {
+                width: var(--avatar-size) !important;
+                height: var(--avatar-size) !important;
             }
-        }
-
-        ~ .nameTag-3uD-yy.canCopy-2VBT7N, ~ .flex-1xMQg5:not(.spotify-buttons) {
+    
+            &::before { // this stuff is literal cringe.
+                content: "";
+                position: absolute;
+                z-index: -1;
+                background-color: transparent;
+                border-radius: 12px 8px 8px 12px;
+                height: var(--avatar-size);
+                width: var(--avatar-size);
+                left: 15px;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                height: 2px;
+                width: 32px;
+                border-radius: 1px;
+                background-color: var(--background-modifier-accent);
+                bottom: -10px;
+                left: 8px;
+            }
+    
+            // hover
             &:hover {
-                @include animation();
+                ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
+                ~ .flex-1xMQg5:not(.spotify-buttons) {
+                    opacity: 1;
+                    pointer-events: all;
+                }
+            }
+            ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
+            ~ .flex-1xMQg5:not(.spotify-buttons) {
+                transition: 250ms ease;
+    
+                &:hover {
+                    opacity: 1;
+                    pointer-events: all;
+                }
             }
         }
-    }
-
-    .hoverRoll-YK53gQ {
-        .customStatus-3tC2ig {
+    
+        // buttons
+        .flex-1xMQg5:not(.spotify-buttons) {
+            position: absolute;
+            background-color: var(--container-color);
+            padding: 2px 5px 2px 5px;
+            border-radius: 5px;
+            max-width: 100px;
+            width: 100px;
+            margin-left: 0px;
             opacity: 0;
+            pointer-events: none;
+    
+            &::before {
+                content: "";
+                position: absolute;
+                right: 100%;
+                top: 50%;
+                margin-top: -5px;
+                border-left-width: 5px;
+                transform: rotate(90deg);
+                width: 0;
+                height: 0;
+                border: 5px solid transparent;
+                border-top-color: var(--container-color);
+            }
         }
-
-        .hovered-d5PMVU {
-            opacity: 1;
-            transform: none;
+    
+        // nametag
+        .nameTag-3uD-yy.canCopy-2VBT7N {
+            position: absolute;
+            background-color: var(--container-color);
+            padding: 2px 15px 3px 15px;
+            border-radius: 0 5px 5px 0;
+            margin-left: 100px;
+            opacity: 0;
+            pointer-events: none;
+    
+            .hoverRoll-YK53gQ {
+                .customStatus-3tC2ig {
+                    opacity: 0;
+                }
+        
+                .hovered-d5PMVU {
+                    opacity: 1;
+                    transform: none;
+                }
+            }
         }
     }
 }

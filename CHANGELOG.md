@@ -1,3 +1,11 @@
+# v1.3.0
+Some minor adjustments, changes, and fixes.
+- No longer using `@mixins` for os types, made the switch over to `@each` as it's easier to manage with OS types.
+- Did a bit of tinkering and redid some things, should be less scuffed.
+- Fixed some z-index issues (scuffed way tho cause im too lazy to figure out an actual way). This should resolve part of [issue #5](https://github.com/Discord-Theme-Addons/revamped-userarea/issues/5).
+- Some file structure reconstructing.
+- Misc changes to the repo itself to make it look a tad bit nicer.
+
 # v1.2.6
 Fixes for where the unread ping indicator wouldn't be positioned properly.
 

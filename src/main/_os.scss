@@ -1,16 +1,28 @@
-.platform- {
-    &win {
-        @include osType(60px, 5px, 35px, 20px, 63px);
-        @include bdUpdate(64px, 60px, 75px);
-    }
+$osTypes:
+    "win" 28px 68px 13px, // windows
+    "osx" 30px 64px 37px, // macOS
+    "linux" 10px 64px 16px, // linux
+    "web" 10px 64px 16px; // browser
 
-    &osx {
-        @include osType(59px, 5px, 38px, 25px, 58px);
-        @include bdUpdate(66px, 40px, 55px);
-    }
+@each $osType, $avatarTop, $guildPadding, $containerTop in $osTypes {
+    .platform-#{$osType} {
+        .guilds-1SWlCJ {
+            padding-top: $guildPadding;
+        }
+        
+        .container-3baos1 {
+            .avatarWrapper-2yR4wp {
+                top: $avatarTop;
+            }
+    
+            .nameTag-3uD-yy.canCopy-2VBT7N,
+            .flex-1xMQg5:not(.spotify-buttons) {
+                top: $containerTop;
+            }
+        }
 
-    &linux, &web {
-        @include osType(59px, 5px, 18px, 5px, 70px);
-        @include bdUpdate(58px, 40px, 55px);
+        .unreadMentionsIndicatorTop-2-tcdU {
+            margin-top: $guildPadding - 6px;
+        }
     }
 }

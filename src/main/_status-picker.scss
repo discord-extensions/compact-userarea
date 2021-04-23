@@ -1,51 +1,81 @@
-#app-mount #status-picker {
-    width: 40px;
-    top: -20px;
-    margin-left: 12px;
-
-    &::before {
-        content: "";
-        position: absolute;
-        background-color: inherit;
-        padding: 15px 0 0 20px;
-        transform: rotate(45deg);
-        left: 12px;
-        z-index: -1;
+#app-mount {
+    .scale-3iLZhb {
+        opacity: 1;
+        transform: none;
     }
 
-    .scroller-3BxosC {
-        &::-webkit-scrollbar, .separator-2I32lJ {
-            display: none;
+    @keyframes animation {
+        0% {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    #status-picker {
+        width: 40px;
+        top: 5px;
+        left: 4px;
+        transition: 250ms ease;
+        animation: animation 0.2s ease-out;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: 38%;
+            bottom: 100%;
+            margin-top: -5px;
+            border-left-width: 5px;
+            transform: rotate(90deg);
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-right-color: var(--container-color);
         }
 
-        .item-1tOPte {
-            padding-left: 2px;
-            right: 5px;
-            left: -4px;
-            
-            &.focused-3afm-j#status-picker-custom-status div .customStatusWithEmoji-8-XZ8I {
-                .emoji {
-                    display: none;
+        .scroller-3BxosC {
+            &::-webkit-scrollbar, 
+            .separator-2I32lJ {
+                display: none;
+            }
+
+            .item-1tOPte {
+                padding-left: 2px;
+                right: 5px;
+                left: -4px;
+                
+                &.focused-3afm-j#status-picker-custom-status div .customStatusWithEmoji-8-XZ8I {
+                    .emoji {
+                        display: none;
+                    }
+
+                    .clearStatusButton-1Mxs1q {
+                        visibility: visible;
+                    }
                 }
 
-                .clearStatusButton-1Mxs1q {
-                    visibility: visible;
+                .statusItem-33LqPf {
+                    &:not([aria-label="Set a custom status"]):not(.customStatusWithEmoji-8-XZ8I) {
+                        margin-left: 1px;
+                    }
+
+                    .clearStatusButton-1Mxs1q {
+                        margin-left: -60px;
+                        visibility: hidden;
+                    }
+                    
+                    .status-1fhblQ, 
+                        .description-2L932D {
+                        display: none;
+                    }
                 }
             }
 
-            .statusItem-33LqPf {
-                &:not([aria-label="Set a custom status"]):not(.customStatusWithEmoji-8-XZ8I) {
-                    margin-left: 1px;
-                }
-
-                .clearStatusButton-1Mxs1q {
-                    margin-left: -60px;
-                    visibility: hidden;
-                }
-                
-                .status-1fhblQ, .description-2L932D {
-                    display: none;
-                }
+            #status-picker-game-activity {
+                left: -7px;
             }
         }
     }

@@ -1,0 +1,15 @@
+/**
+    * @name Compact Userarea
+    * @version 1.3.0
+    * @description Makes the user area more compact and puts it in the top left.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/Discord-Theme-Addons/compact-userarea/tree/main/src
+**/
+
+@import url('https://discord-theme-addons.github.io/compact-userarea/src/support/compiled.css');
+
+:root {
+    --container-color: var(--background-floating);
+}
