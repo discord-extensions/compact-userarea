@@ -1,6 +1,6 @@
 ![Banner](./assets/banner.png)
 
-# Revamped User Area
+# Compact Userarea
 A compact, better looking, user area. This addon looks best with Gibbu's [Radial Status](https://github.com/DiscordStyles/RadialStatus).
 
 ![Preview](./screenshots/preview.png)
