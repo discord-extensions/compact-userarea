@@ -1,3 +1,6 @@
+# v1.3.1
+Better native support for [Bottom Bar](https://github.com/Discord-Theme-Addons/bottom-bar) for the recent rework.
+
 # v1.3.0
 Some minor adjustments, changes, and fixes.
 - No longer using `@mixins` for os types, made the switch over to `@each` as it's easier to manage with OS types.

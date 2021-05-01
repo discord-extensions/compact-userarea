@@ -20,18 +20,12 @@ git clone https://github.com/Discord-Theme-Addons/compact-userarea
 2. After installing, head over to [this link](https://raw.githack.com/Discord-Theme-Addons/compact-userarea/main/src/support/CompactUserarea.user.css).
 3. Press the "Install Style" button.
 
-# Support for BottomBar
-If you're using [BottomBar](https://github.com/Discord-Theme-Addons/bottom-bar) (another theme add-on by me), there will be compatibility issues. In order to fix this, head over to `./src/_base.scss`, open the file then add a new line at the bottom that is:
-```css
-@import "./support/bottombar-support";
-```
-
 # Issues
 Here is a list of plugins/themes/css that can cause issues with this addon. If you're still having issues, you can either make an issue request, ping me in the Powercord server, or DM me on Discord.
 
 - If the top left is blank, it's most likely because you have [Hoofer's Sidebar Zoom](https://github.com/HooferDevelops/sidebar-zoom)
 - [Harmony Discord](https://github.com/KraXen72/harmony-discord) breaks everything with it. 
-- [Frosted Glass](https://github.com/DiscordStyles/FrostedGlass) will have positioning issues.
+- [Frosted Glass](https://github.com/DiscordStyles/FrostedGlass) will have positioning issues, making this pretty much unusable.
 - If the status picker icons are enlarged and misplaced, it's most likely because you have Compact status Menu.
 - Anything else that messes with the status picker/action buttons/avatar.
 
