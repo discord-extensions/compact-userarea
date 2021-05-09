@@ -12,12 +12,12 @@ git clone https://github.com/Discord-Theme-Addons/compact-userarea
 ```
 
 **For BetterDiscord:**
-- [Direct Dowload](https://betterdiscord.net/ghdl?id=3656)
-- [View Source](https://raw.githack.com/Discord-Theme-Addons/compact-userarea/main/src/support/CompactUserarea.theme.css)
+- [Direct Dowload](https://github.com/Discord-Theme-Addons/compact-userarea/releases/download/1.3.1/CompactUserarea.theme.css)
+- [View Source](https://discord-theme-addons.github.io/compact-userarea/src/support/CompactUserarea.theme.css)
 
 **For Browser / Web:**
 1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
-2. After installing, head over to [this link](https://raw.githack.com/Discord-Theme-Addons/compact-userarea/main/src/support/CompactUserarea.user.css).
+2. After installing, head over to [this link](https://discord-theme-addons.github.io/compact-userarea/src/support/CompactUserarea.user.css).
 3. Press the "Install Style" button.
 
 # Issues
