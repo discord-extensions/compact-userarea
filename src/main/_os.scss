@@ -1,28 +1,17 @@
-$osTypes:
-    "win" 28px 68px 13px, // windows
-    "osx" 30px 64px 37px, // macOS
-    "linux" 10px 64px 16px, // linux
-    "web" 10px 64px 16px; // browser
+$osTypeInfo:
+    "win" 72px 30px, // windows
+    "osx" 98px 30px, // macOS
+    "linux" 64px 8px, //linux
+    "web" 64px 8px; // web
 
-@each $osType, $avatarTop, $guildPadding, $containerTop in $osTypes {
-    .platform-#{$osType} {
-        .guilds-1SWlCJ {
-            padding-top: $guildPadding;
-        }
-        
+@each $os, $guildTop, $containerTop in $osTypeInfo {
+    .platform-#{$os} {
         .container-3baos1 {
-            .avatarWrapper-2yR4wp {
-                top: $avatarTop;
-            }
-    
-            .nameTag-3uD-yy.canCopy-2VBT7N,
-            .flex-1xMQg5:not(.spotify-buttons) {
-                top: $containerTop;
-            }
+            top: $containerTop !important; // use of !important for bottombar users
         }
 
-        .unreadMentionsIndicatorTop-2-tcdU {
-            margin-top: $guildPadding - 6px;
+        .guilds-1SWlCJ {
+            margin-top: $guildTop;
         }
     }
 }

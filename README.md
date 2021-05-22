@@ -12,7 +12,7 @@ git clone https://github.com/Discord-Theme-Addons/compact-userarea
 ```
 
 **For BetterDiscord:**
-- [Direct Dowload](https://github.com/Discord-Theme-Addons/compact-userarea/releases/download/1.3.1/CompactUserarea.theme.css)
+- [Direct Dowload](https://betterdiscord.app/Download?id=165)
 - [View Source](https://discord-theme-addons.github.io/compact-userarea/src/support/CompactUserarea.theme.css)
 
 **For Browser / Web:**

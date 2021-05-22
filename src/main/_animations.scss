@@ -1,0 +1,20 @@
+@keyframes top-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes left-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-4px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}

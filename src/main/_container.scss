@@ -5,48 +5,48 @@
         z-index: 1;
     }
 
-    .container-3baos1 {
-        top: 0 !important; // bottombar support
-        height: 0;
+    // userarea
+    .container-3baos1 { // main container -- use of !important for bottombar users
+        position: fixed !important;
+        left: 4px !important;
+        border-radius: 25px;
+        background-color: transparent !important;
 
         // avatar
         .avatarWrapper-2yR4wp {
-            --avatar-size: 48px;
-            position: fixed;
-            left: 12px;
-    
             .wrapper-3t9DeA {
+                --avatar-size: 48px;
                 width: var(--avatar-size) !important;
                 height: var(--avatar-size) !important;
+
+                &::before { // this stuff is literal cringe.
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    border-radius: 12px 8px 8px 12px;
+                    height: var(--avatar-size);
+                    width: var(--avatar-size);
+                    left: 20px;
+                }
+                
+                &::after {
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    width: 32px;
+                    border-radius: 1px;
+                    background-color: var(--background-modifier-accent);
+                    bottom: -10px;
+                    left: 8px;
+                }
             }
-    
-            &::before { // this stuff is literal cringe.
-                content: "";
-                position: absolute;
-                z-index: -1;
-                background-color: transparent;
-                border-radius: 12px 8px 8px 12px;
-                height: var(--avatar-size);
-                width: var(--avatar-size);
-                left: 15px;
-            }
-            &::after {
-                content: '';
-                position: absolute;
-                height: 2px;
-                width: 32px;
-                border-radius: 1px;
-                background-color: var(--background-modifier-accent);
-                bottom: -10px;
-                left: 8px;
-            }
-    
             // hover
             &:hover {
                 ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
                 ~ .flex-1xMQg5:not(.spotify-buttons) {
                     opacity: 1;
                     pointer-events: all;
+                    animation: left-right 0.2s ease-in;
                 }
             }
             ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
@@ -56,26 +56,49 @@
                 &:hover {
                     opacity: 1;
                     pointer-events: all;
+                    animation: left-right 0.2s ease-in;
                 }
             }
         }
-    
-        // buttons
-        .flex-1xMQg5:not(.spotify-buttons) {
+
+        // nametag
+        .nameTag-3uD-yy {
             position: absolute;
+            left: 175px;
+            order: 2;
+            max-width: 75px;
+            padding: 2px 15px 2px 5px;
+            border-radius: 0 5px 5px 0;
             background-color: var(--container-color);
-            padding: 2px 5px 2px 5px;
-            border-radius: 5px;
-            max-width: 100px;
-            width: 100px;
-            margin-left: 0px;
             opacity: 0;
             pointer-events: none;
-    
+
+            // hide custom status
+            .customStatus-3tC2ig {
+                opacity: 0;
+            }
+            .hovered-d5PMVU {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        // buttons
+        .flex-1xMQg5 {
+            position: absolute;
+            left: calc(100% + 4px);
+            min-width: 100px;
+            max-width: 125px;
+            padding: 2px 0 2px 2px;
+            border-radius: 5px;
+            background-color: var(--container-color);
+            opacity: 0;
+            pointer-events: none;
+
             &::before {
                 content: "";
                 position: absolute;
-                right: 100%;
+                left: -10px;
                 top: 50%;
                 margin-top: -5px;
                 border-left-width: 5px;
@@ -84,29 +107,6 @@
                 height: 0;
                 border: 5px solid transparent;
                 border-top-color: var(--container-color);
-            }
-        }
-    
-        // nametag
-        .nameTag-3uD-yy.canCopy-2VBT7N {
-            position: absolute;
-            background-color: var(--container-color);
-            padding: 2px 15px 3px 15px;
-            border-radius: 0 5px 5px 0;
-            margin-left: 100px;
-            opacity: 0;
-            pointer-events: none;
-            max-width: 75px;
-    
-            .hoverRoll-YK53gQ {
-                .customStatus-3tC2ig {
-                    opacity: 0;
-                }
-        
-                .hovered-d5PMVU {
-                    opacity: 1;
-                    transform: none;
-                }
             }
         }
     }

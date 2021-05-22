@@ -1,57 +1,26 @@
+.platform-win .container-3baos1 {
+    top: 30px !important;
+}
 .platform-win .guilds-1SWlCJ {
-    padding-top: 68px;
+    margin-top: 72px;
 }
-.platform-win .container-3baos1 .avatarWrapper-2yR4wp {
-    top: 28px;
+.platform-osx .container-3baos1 {
+    top: 30px !important;
 }
-.platform-win .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-win .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
-    top: 13px;
-}
-.platform-win .unreadMentionsIndicatorTop-2-tcdU {
-    margin-top: 62px;
-}
-
 .platform-osx .guilds-1SWlCJ {
-    padding-top: 64px;
+    margin-top: 98px;
 }
-.platform-osx .container-3baos1 .avatarWrapper-2yR4wp {
-    top: 30px;
+.platform-linux .container-3baos1 {
+    top: 8px !important;
 }
-.platform-osx .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-osx .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
-    top: 37px;
-}
-.platform-osx .unreadMentionsIndicatorTop-2-tcdU {
-    margin-top: 58px;
-}
-
 .platform-linux .guilds-1SWlCJ {
-    padding-top: 64px;
+    margin-top: 64px;
 }
-.platform-linux .container-3baos1 .avatarWrapper-2yR4wp {
-    top: 10px;
+.platform-web .container-3baos1 {
+    top: 8px !important;
 }
-.platform-linux .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-linux .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
-    top: 16px;
-}
-.platform-linux .unreadMentionsIndicatorTop-2-tcdU {
-    margin-top: 58px;
-}
-
 .platform-web .guilds-1SWlCJ {
-    padding-top: 64px;
-}
-.platform-web .container-3baos1 .avatarWrapper-2yR4wp {
-    top: 10px;
-}
-.platform-web .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N,
-.platform-web .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
-    top: 16px;
-}
-.platform-web .unreadMentionsIndicatorTop-2-tcdU {
-    margin-top: 58px;
+    margin-top: 64px;
 }
 
 #app-mount .container-1taM1r,
@@ -59,29 +28,26 @@
     z-index: 1;
 }
 #app-mount .container-3baos1 {
-    top: 0 !important;
-    height: 0;
-}
-#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
-    --avatar-size: 48px;
-    position: fixed;
-    left: 12px;
+    position: fixed !important;
+    left: 4px !important;
+    border-radius: 25px;
+    background-color: transparent !important;
 }
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA {
+    --avatar-size: 48px;
     width: var(--avatar-size) !important;
     height: var(--avatar-size) !important;
 }
-#app-mount .container-3baos1 .avatarWrapper-2yR4wp::before {
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA::before {
     content: "";
     position: absolute;
     z-index: -1;
-    background-color: transparent;
     border-radius: 12px 8px 8px 12px;
     height: var(--avatar-size);
     width: var(--avatar-size);
-    left: 15px;
+    left: 20px;
 }
-#app-mount .container-3baos1 .avatarWrapper-2yR4wp::after {
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp .wrapper-3t9DeA::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -95,6 +61,7 @@
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp:hover ~ .flex-1xMQg5:not(.spotify-buttons) {
     opacity: 1;
     pointer-events: all;
+    animation: left-right 0.2s ease-in;
 }
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp ~ .nameTag-3uD-yy.canCopy-2VBT7N,
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons) {
@@ -104,82 +71,76 @@
 #app-mount .container-3baos1 .avatarWrapper-2yR4wp ~ .flex-1xMQg5:not(.spotify-buttons):hover {
     opacity: 1;
     pointer-events: all;
+    animation: left-right 0.2s ease-in;
 }
-#app-mount .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
+#app-mount .container-3baos1 .nameTag-3uD-yy {
     position: absolute;
+    left: 175px;
+    order: 2;
+    max-width: 75px;
+    padding: 2px 15px 2px 5px;
+    border-radius: 0 5px 5px 0;
     background-color: var(--container-color);
-    padding: 2px 5px 2px 5px;
-    border-radius: 5px;
-    max-width: 100px;
-    width: 100px;
-    margin-left: 0px;
     opacity: 0;
     pointer-events: none;
 }
-#app-mount .container-3baos1 .flex-1xMQg5:not(.spotify-buttons)::before {
+#app-mount .container-3baos1 .nameTag-3uD-yy .customStatus-3tC2ig {
+    opacity: 0;
+}
+#app-mount .container-3baos1 .nameTag-3uD-yy .hovered-d5PMVU {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+}
+#app-mount .container-3baos1 .flex-1xMQg5 {
+    position: absolute;
+    left: calc(100% + 4px);
+    min-width: 100px;
+    max-width: 125px;
+    padding: 2px 0 2px 2px;
+    border-radius: 5px;
+    background-color: var(--container-color);
+    opacity: 0;
+    pointer-events: none;
+}
+#app-mount .container-3baos1 .flex-1xMQg5::before {
     content: "";
     position: absolute;
-    right: 100%;
+    left: -10px;
     top: 50%;
     margin-top: -5px;
     border-left-width: 5px;
-    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
     width: 0;
     height: 0;
     border: 5px solid transparent;
     border-top-color: var(--container-color);
-}
-#app-mount .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N {
-    position: absolute;
-    background-color: var(--container-color);
-    padding: 2px 15px 3px 15px;
-    border-radius: 0 5px 5px 0;
-    margin-left: 100px;
-    opacity: 0;
-    pointer-events: none;
-    max-width: 75px;
-}
-#app-mount .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N .hoverRoll-YK53gQ .customStatus-3tC2ig {
-    opacity: 0;
-}
-#app-mount .container-3baos1 .nameTag-3uD-yy.canCopy-2VBT7N .hoverRoll-YK53gQ .hovered-d5PMVU {
-    opacity: 1;
-    transform: none;
 }
 
 #app-mount .scale-3iLZhb {
     opacity: 1;
     transform: none;
 }
-@keyframes animation {
-    0% {
-        opacity: 0;
-        transform: translateY(-5px);
-    }
-    100% {
-        opacity: 1;
-        transform: none;
-    }
-}
 #app-mount #status-picker {
-    width: 40px;
     top: 5px;
     left: 4px;
+    width: 40px;
     transition: 250ms ease;
-    animation: animation 0.2s ease-out;
+        animation: top-bottom 0.2s ease-out;
 }
 #app-mount #status-picker::before {
-    content: "";
     position: absolute;
     right: 38%;
     bottom: 100%;
+    content: "";
     margin-top: -5px;
+    border: 5px solid transparent;
     border-left-width: 5px;
-    transform: rotate(90deg);
     width: 0;
     height: 0;
-    border: 5px solid transparent;
     border-right-color: var(--container-color);
+    transform: rotate(90deg);
 }
 #app-mount #status-picker .scroller-3BxosC::-webkit-scrollbar,
 #app-mount #status-picker .scroller-3BxosC .separator-2I32lJ {
@@ -209,4 +170,25 @@
 }
 #app-mount #status-picker .scroller-3BxosC #status-picker-game-activity {
     left: -7px;
+}
+
+@keyframes top-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+@keyframes left-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-4px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }

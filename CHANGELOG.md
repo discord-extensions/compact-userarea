@@ -1,3 +1,10 @@
+# v1.3.2
+A few changes & adjustments.
+- A minor rework to use the entire userarea instead of moving things each by each, which helps clean the code for specific os types.
+- When you hover on your avatar, the buttons now have a popout animation.
+- All animations can now be found in `./src/main/_animations.scss`.
+- Some more code "cleanup."
+
 # v1.3.1
 Better native support for [Bottom Bar](https://github.com/Discord-Theme-Addons/bottom-bar) for the recent rework.
 
