@@ -11,6 +11,10 @@
         left: 4px !important;
         border-radius: 25px;
         background-color: transparent !important;
+        
+        &.gameActivityToggleAdded-Yd-YxC { // game activity toggle BD plugin adds an extra class if enabled; pushes nametag a little further when necessary
+            left: 200px;
+        }
 
         // avatar
         .avatarWrapper-2yR4wp {
