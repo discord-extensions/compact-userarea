@@ -1,0 +1,106 @@
+// z-index
+.container-1taM1r,
+.searchBar-6Kv8R2 {
+    z-index: 1;
+}
+
+// userarea
+.container-3baos1 { // main container -- use of !important for bottombar users
+    position: fixed !important;
+    left: 4px !important;
+    border-radius: 25px;
+    background-color: transparent !important;
+
+    // avatar
+    .avatarWrapper-2yR4wp {
+        .wrapper-3t9DeA {
+            --avatar-size: 48px;
+            width: var(--avatar-size) !important;
+            height: var(--avatar-size) !important;
+            &::before {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                border-radius: 12px 8px 8px 12px;
+                height: var(--avatar-size);
+                width: var(--avatar-size);
+                left: 20px;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                height: 2px;
+                width: 32px;
+                border-radius: 1px;
+                background-color: var(--background-modifier-accent);
+                bottom: -10px;
+                left: 8px;
+            }
+        }
+        // hover
+        &:hover {
+            ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
+            ~ .flex-1xMQg5:not(.spotify-buttons) {
+                opacity: 1;
+                pointer-events: all;
+                animation: left-right 0.2s ease-in;
+            }
+        }
+        ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
+        ~ .flex-1xMQg5:not(.spotify-buttons) {
+            transition: 250ms ease;
+            &:hover {
+                opacity: 1;
+                pointer-events: all;
+                animation: left-right 0.2s ease-in;
+            }
+        }
+    }
+
+    // username
+    .nameTag-3uD-yy {
+        order: 2;
+        padding: 3px 15px 2px 5px;
+        border-radius: 0 5px 5px 0;
+        background-color: var(--container-color);
+        opacity: 0;
+        pointer-events: none;
+        // hide custom status
+        .customStatus-3tC2ig {
+            opacity: 0;
+        }
+        .hovered-d5PMVU {
+            opacity: 1;
+            transform: none;
+        }
+        &:hover ~ .flex-1xMQg5 {
+            opacity: 1;
+        }
+    }
+
+    // buttons
+    .flex-1xMQg5 {
+        margin-left: 13px;
+        padding: 2px 2px 2px 2px;
+        border-radius: 5px 0 0 5px;
+        background-color: var(--container-color);
+        opacity: 0;
+        pointer-events: none;
+        &:hover {
+            border-radius: 5px;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            margin-left: -12px;
+            top: 50%;
+            margin-top: -5px;
+            border-left-width: 5px;
+            transform: rotate(90deg);
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-top-color: var(--container-color);
+        }
+    }
+}

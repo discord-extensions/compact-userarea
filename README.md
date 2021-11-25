@@ -1,9 +1,9 @@
-![Banner](./assets/banner.png)
+![Banner](https://raw.githubusercontent.com/Discord-Theme-Addons/compact-userarea/main/assets/readme/banner.png)
 
 # Compact Userarea
 A compact, better looking, user area. This addon looks best with Gibbu's [Radial Status](https://github.com/DiscordStyles/RadialStatus).
 
-![Preview](./screenshots/preview.png)
+![Preview](https://raw.githubusercontent.com/Discord-Theme-Addons/compact-userarea/main/assets/readme/preview.png)
 
 # Installation
 For Powercord or Vizality installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:

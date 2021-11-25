@@ -1,5 +1,5 @@
-:root {
-    --container-color: var(--background-floating);
-}
+@use "src";
 
-@import "./src/base";
+:root {
+    --container-color: var(--background-floating); // for the status picker and userarea container
+}

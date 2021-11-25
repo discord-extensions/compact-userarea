@@ -1,0 +1,17 @@
+$osTypeInfo:
+    "win" 72px 30px, // windows
+    "osx" 66px 30px, // macOS
+    "linux" 64px 8px, //linux
+    "web" 64px 8px; // web
+
+@each $os, $guildTop, $containerTop in $osTypeInfo {
+    .platform-#{$os} {
+        .container-3baos1 {
+            top: $containerTop !important; // use of !important for bottombar users
+        }
+        
+        .guilds-1SWlCJ .tree-2wKJdG {
+            margin-top: $guildTop;
+        }
+    }
+}
