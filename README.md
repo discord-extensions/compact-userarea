@@ -20,13 +20,13 @@ git clone https://github.com/Discord-Theme-Addons/compact-userarea
 2. After installing, head over to [this link](https://discord-theme-addons.github.io/compact-userarea/src/support/CompactUserarea.user.css).
 3. Press the "Install Style" button.
 
-# Issues
-Here is a list of plugins/themes/css that can cause issues with this addon. If you're still having issues, you can either make an issue request, ping me in the Powercord server, or DM me on Discord.
+# Placement Issues
+Before making an issue on this repo about something being positioned incorrectly, please make sure you check any themes / plugins / quick css that you have enabled for conflicting css. Some things you should look out for:
+- Anything that messes with the userarea.
+- Anything that messes with the guildlist.
 
-- If the top left is blank, it's most likely because you have [Hoofer's Sidebar Zoom](https://github.com/HooferDevelops/sidebar-zoom)
-- [Harmony Discord](https://github.com/KraXen72/harmony-discord) breaks everything with it. 
-- [Frosted Glass](https://github.com/DiscordStyles/FrostedGlass) will have positioning issues, making this pretty much unusable.
-- If the status picker icons are enlarged and misplaced, it's most likely because you have Compact status Menu.
-- Anything else that messes with the status picker/action buttons/avatar.
-
-Make sure you check all of the above before messaging me or making an issue on this repo.
+Below are some known plugins / themes that can cause the issues with this addon. I've also added specific scenarios cause usually that's the cause when it comes down to it.
+- **[Sidebar Zoom](https://github.com/HooferDevelops/sidebar-zoom)** will cause the top-left to be blank (not too sure if this happens anymore as of 11/25/2021).
+- **[Harmony Discord](https://github.com/KraXen72/harmony-discord)** just flatout breaks everything.
+- **[Frosted Glass](https://github.com/DiscordStyles/FrostedGlass)** may cause some things to be positioned incorrectly, pretty much making it unuseable.
+- **[Material Discord](https://github.com/CapnKitten/Material-Discord/)** will have slight displacement of your avatar, but it should still function perfectly fine.
