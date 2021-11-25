@@ -54,11 +54,15 @@
             margin-left: -3px;
         }
         .clearStatusButton-1Mxs1q {
-            left: 23px;
             visibility: hidden;
         }
-        &:hover .clearStatusButton-1Mxs1q {
-            visibility: visible;
+        &:hover {
+            .customEmoji-2_2FwB {
+                visibility: hidden;
+            }
+            .clearStatusButton-1Mxs1q {
+                visibility: visible;
+            }
         }
     }
     #status-picker-switch-account {

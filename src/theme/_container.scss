@@ -1,7 +1,13 @@
 // z-index
-.container-1taM1r,
+.container-1taM1r .header-2V-4Sw,
 .searchBar-6Kv8R2 {
     z-index: 1;
+}
+.panels-j1Uci_ {
+    z-index: 0;
+    &:hover {
+        z-index: 2;
+    }
 }
 
 // userarea

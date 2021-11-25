@@ -1,9 +1,16 @@
-# Version 1.4.0 - 11/24/2021
+# Version 1.4.1 - 11/25/2021
+- Fixed some sizing and z-indexing for the userarea container.
+- Fixed clear custom emoji to properly display on hover.
+
+<details>
+<summary><b> Version 1.4.0 - 11/24/2021 </b></summary>
+
 - Using a better method for when userarea buttons and nametag shows (aka when you hover on your avatar). This closes **[pull #9](https://github.com/Discord-Theme-Addons/compact-userarea/pull/9)**.
 - Changes to the status picker for it to function better when interacting.
 - Some minor modifications for better theme compatibility (hopefully). This closes **[issue #7](https://github.com/Discord-Theme-Addons/compact-userarea/issues/7)**.
 - Some file structure changes.
 - README asset updates.
+</details>
 
 <details>
 <summary><b> Version 1.3.2 </b></summary>
