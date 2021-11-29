@@ -25,8 +25,8 @@ Before making an issue on this repo about something being positioned incorrectly
 - Anything that messes with the userarea.
 - Anything that messes with the guildlist.
 
-Below are some known plugins / themes that can cause the issues with this addon. I've also added specific scenarios cause usually that's the cause when it comes down to it.
+Below are some known plugins / themes that can cause the issues with this addon.
 - **[Sidebar Zoom](https://github.com/HooferDevelops/sidebar-zoom)** will cause the top-left to be blank (not too sure if this happens anymore as of 11/25/2021).
 - **[Harmony Discord](https://github.com/KraXen72/harmony-discord)** just flatout breaks everything.
 - **[Frosted Glass](https://github.com/DiscordStyles/FrostedGlass)** may cause some things to be positioned incorrectly, pretty much making it unuseable.
-- **[Material Discord](https://github.com/CapnKitten/Material-Discord/)** will have slight displacement of your avatar, but it should still function perfectly fine.
+- **[Spotify Discrd](https://github.com/CapnKitten/Spotify-Discord)** will have slight displacement with the avatar, status picker items will be messed up, and the bar at the bottom will be a bit broken because the userarea is moved.
