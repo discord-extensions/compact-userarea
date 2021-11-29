@@ -1,6 +1,13 @@
-# Version 1.4.1 - 11/25/2021
+# Version 1.4.2 - 11/29/2021
+- Small fix for the nametag width.
+- Positioning adjustment for account switcher context menu.
+
+<details>
+<summary><b> Version 1.4.1 - 11/25/2021 </b></summary>
+
 - Fixed some sizing and z-indexing for the userarea container.
 - Fixed clear custom emoji to properly display on hover.
+</details>
 
 <details>
 <summary><b> Version 1.4.0 - 11/24/2021 </b></summary>

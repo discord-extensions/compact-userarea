@@ -1,4 +1,4 @@
-// z-index
+// some scuffed z-index stuff
 .container-1taM1r .header-2V-4Sw,
 .searchBar-6Kv8R2 {
     z-index: 1;
@@ -10,7 +10,6 @@
     }
 }
 
-// userarea
 .panels-j1Uci_ .container-3baos1 { // main container -- use of !important for bottombar users
     position: fixed !important;
     left: 4px !important;
@@ -44,7 +43,7 @@
                 left: 8px;
             }
         }
-        // hover
+        // wrapper hover
         &:hover {
             ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
             ~ .flex-1xMQg5:not(.spotify-buttons) {
@@ -67,7 +66,8 @@
     // username
     .nameTag-3uD-yy {
         order: 2;
-        width: 80px;
+        min-width: 65px;
+        max-width: 75px;
         padding: 3px 15px 1px 5px;
         border-radius: 0 5px 5px 0;
         background-color: var(--container-color);
