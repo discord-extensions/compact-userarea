@@ -1,6 +1,13 @@
-# Version 1.4.2 - 11/29/2021
+# Version 1.5.0 - 01/13/2022
+- Fixed theme being broken due to class reroll.
+- Minor file structure adjustments.
+
+<details>
+<summary><b> Version 1.4.2 - 11/29/2021 </b></summary>
+
 - Small fix for the nametag width.
 - Positioning adjustment for account switcher context menu.
+</details>
 
 <details>
 <summary><b> Version 1.4.1 - 11/25/2021 </b></summary>

@@ -1,4 +1,5 @@
-@forward "./theme/os";
-@forward "./theme/container";
-@forward './theme/status-picker';
-@forward './theme/animations';
+@use 'theme';
+
+:root {
+    --container-color: var(--background-floating); // for the status picker and userarea container
+}

@@ -1,16 +1,16 @@
 // some scuffed z-index stuff
-.container-1taM1r .header-2V-4Sw,
-.searchBar-6Kv8R2 {
+.container-1-ERn5 .header-3OsQeK,
+.searchBar-3TnChZ {
     z-index: 1;
 }
-.panels-j1Uci_ {
+.panels-3wFtMD {
     z-index: 0;
     &:hover {
         z-index: 2;
     }
 }
 
-.panels-j1Uci_ .container-3baos1 { // main container -- use of !important for bottombar users
+.panels-3wFtMD .container-YkUktl { // main container -- use of !important for bottombar users
     position: fixed !important;
     left: 4px !important;
     height: 52px;
@@ -18,8 +18,8 @@
     background-color: transparent !important;
 
     // avatar
-    .avatarWrapper-2yR4wp {
-        .wrapper-3t9DeA {
+    .avatarWrapper-1B9FTW {
+        .wrapper-1VLyxH {
             --avatar-size: 48px;
             width: var(--avatar-size) !important;
             height: var(--avatar-size) !important;
@@ -45,15 +45,15 @@
         }
         // wrapper hover
         &:hover {
-            ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
-            ~ .flex-1xMQg5:not(.spotify-buttons) {
+            ~ .nameTag-sc-gpq.canCopy-IgTwyV, 
+            ~ .flex-2S1XBF:not(.spotify-buttons) {
                 opacity: 1;
                 pointer-events: all;
                 animation: left-right 0.2s ease-in;
             }
         }
-        ~ .nameTag-3uD-yy.canCopy-2VBT7N, 
-        ~ .flex-1xMQg5:not(.spotify-buttons) {
+        ~ .nameTag-sc-gpq.canCopy-IgTwyV, 
+        ~ .flex-2S1XBF:not(.spotify-buttons) {
             transition: 250ms ease;
             &:hover {
                 opacity: 1;
@@ -64,7 +64,7 @@
     }
 
     // username
-    .nameTag-3uD-yy {
+    .nameTag-sc-gpq {
         order: 2;
         min-width: 65px;
         max-width: 75px;
@@ -74,20 +74,20 @@
         opacity: 0;
         pointer-events: none;
         // hide custom status
-        .customStatus-3tC2ig {
+        .customStatus-1UAQAK {
             opacity: 0;
         }
-        .hovered-d5PMVU {
+        .hovered-20u3oh {
             opacity: 1;
             transform: none;
         }
-        &:hover ~ .flex-1xMQg5 {
+        &:hover ~ .flex-2S1XBF {
             opacity: 1;
         }
     }
 
     // buttons
-    .flex-1xMQg5 {
+    .flex-2S1XBF {
         margin-left: 13px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px 0 0 5px;
