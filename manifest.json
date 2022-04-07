@@ -1,9 +1,9 @@
 {
     "name": "Compact Userarea",
-    "description": "Makes the user area more compact and puts it in the top left.",
-    "version": "1.5.0",
-    "author": "LuckFire#4800",
-    "theme": "./src/_index.scss",
-    "consent": "false",
+    "description": "A compact, better looking, top-left user area.",
+    "version": "1.5.1",
+    "author": "LuckFire",
+    "theme": "./src/index.scss",
+    "consent": "true",
     "license": "MIT"
 }

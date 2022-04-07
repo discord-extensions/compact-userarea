@@ -1,0 +1,15 @@
+/**
+    * @name Compact Userarea
+    * @version 1.5.1
+    * @description A compact, better looking, top-left user area.
+    * @author LuckFire
+    *
+    * @website https://github.com/discord-extensions
+    * @source https://github.com/discord-extensions/compact-userarea/
+**/
+
+@import url('https://discord-extensions.github.io/compact-userarea/support/compiled.css');
+
+:root {
+    --container-color: var(--background-floating);
+}

@@ -1,6 +1,12 @@
-# Version 1.5.0 - 01/13/2022
+# Version 1.5.1 - 04/07/2022
+Changes to repository README and sorting. It has also been transferred over to a [new org](https://github.com/discord-extensions).
+
+<details>
+<summary><b> Version 1.5.0 - 01/13/2022 </b></summary>
+
 - Fixed theme being broken due to class reroll.
 - Minor file structure adjustments.
+</details>
 
 <details>
 <summary><b> Version 1.4.2 - 11/29/2021 </b></summary>
