@@ -30,18 +30,21 @@
 .searchBar-3TnChZ {
     z-index: 1;
 }
-
+.privateChannels-oVe7HL {
+    z-index:  1;
+}
+.container-ZMc96U {
+    z-index: 1;
+}
 .panels-3wFtMD {
     z-index: 0;
 }
 .panels-3wFtMD:hover {
     z-index: 2;
 }
-
 .guilds-2JjMmN .scroller-3X7KbA {
     margin-bottom: 72px;
 }
-
 .panels-3wFtMD .container-YkUktl {
     position: fixed !important;
     left: 4px !important;
