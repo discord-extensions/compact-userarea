@@ -7,7 +7,7 @@ $osTypeInfo:
 @each $os, $guildTop, $containerTop in $osTypeInfo {
     .platform-#{$os} {
         .container-YkUktl {
-            top: $containerTop !important; // use of !important for bottombar users
+            top: $containerTop !important;
         }
         
         .guilds-2JjMmN .tree-3agP2X {

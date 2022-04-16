@@ -75,7 +75,7 @@
         max-width: 75px;
         padding: 3px 15px 2px 5px;
         border-radius: 0 5px 5px 0;
-        background-color: var(--container-color);
+        background-color: var(--background-floating);
         opacity: 0;
         pointer-events: none;
         // hide custom status
@@ -96,7 +96,7 @@
         margin-left: 13px;
         padding: 2px 2px 2px 2px;
         border-radius: 5px 0 0 5px;
-        background-color: var(--container-color);
+        background-color: var(--background-floating);
         opacity: 0;
         pointer-events: none;
         &:hover {
@@ -113,7 +113,7 @@
             width: 0;
             height: 0;
             border: 5px solid transparent;
-            border-top-color: var(--container-color);
+            border-top-color: var(--background-floating);
         }
     }
 }

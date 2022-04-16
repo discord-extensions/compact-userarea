@@ -1,7 +1,7 @@
 {
     "name": "Compact Userarea",
     "description": "A compact, better looking, top-left user area.",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "author": "LuckFire",
     "theme": "./src/index.scss",
     "consent": "true",

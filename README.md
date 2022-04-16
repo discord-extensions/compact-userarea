@@ -1,4 +1,4 @@
-<img src="./assets/banner.png">
+<img src="./assets/README/banner.png">
 
 # Downloads
 ### **[Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)**

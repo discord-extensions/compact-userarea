@@ -1,8 +1,3 @@
-@use 'os';
-@use 'container';
-@use 'status-picker';
-@use 'animations';
-
-:root {
-    --container-color: var(--background-floating); // for the status picker and userarea container
-}
+@use 'addon';
+@use './base/os';
+@use './base/animations';

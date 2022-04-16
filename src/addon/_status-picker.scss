@@ -7,7 +7,7 @@
     top: 5px;
     left: 4px;
     width: 40px;
-    background-color: var(--container-color);
+    background-color: var(--background-floating);
     transition: 250ms ease;
     animation: top-bottom 0.2s ease-out;
     &::before {
@@ -20,7 +20,7 @@
         border-left-width: 5px;
         width: 0;
         height: 0;
-        border-right-color: var(--container-color);
+        border-right-color: var(--background-floating);
         transform: rotate(90deg);
     }
 

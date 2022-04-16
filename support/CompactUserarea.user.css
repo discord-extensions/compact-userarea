@@ -4,12 +4,8 @@
     @description  A compact, better looking, top-left user area.
     @author       LuckFire
     @namespace    https://github.com/discord-extensions/compact-userarea/
-    @version      1.5.1
+    @version      1.5.2
     ==/UserStyle== */
 
     @import url('https://discord-extensions.github.io/compact-userarea/support/compiled.css');
-
-    :root {
-        --container-color: var(--background-floating);
-    }
 }
