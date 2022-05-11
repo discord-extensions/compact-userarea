@@ -8,15 +8,14 @@ https://github.com/discord-extensions/compact-userarea
 ```
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
-- [Website Page](https://betterdiscord.app/theme/Compact%20Userarea)
-- [Direct Download](https://betterdiscord.app/Download?id=165)
-- [Source](https://discord-extensions.github.io/compact-userarea/support/compiled.css)
+- [Direct Download](https://github.com/discord-extensions/compact-userarea/releases/download/betterdiscord/CompactUserarea.theme.css)
+- [Source](https://discord-extensions.github.io/compact-userarea/src/source.css)
 
 ### **Stylus**
 1. Install the browser extension for your respective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-2. Once you have the browser extension, head over to [this link](https://github.com/discord-extensions/compact-userarea/raw/main/support/modern-indicators.user.css). It will open a new window to the page to install the style.
+2. Once you have the browser extension, head over to [this link](https://github.com/discord-extensions/compact-userarea/raw/main/clients/stylus/modern-indicators.user.css). It will open a new window to the page to install the style.
 3. Press the "Install Style" button.
 
 # Conflicting Issues
@@ -28,3 +27,4 @@ Below are some known themes / plugins that will cause conflict with this theme a
 - [Frosted Glass](https://github.com/DiscordStyles/FrostedGlass) may cause some things to be positioned incorrectly, pretty much making it unuseable.
 - [Spotify Discrd](https://github.com/CapnKitten/Spotify-Discord) will have slight displacement with the avatar, status picker items will be messed up, and the bar at the bottom will be a bit broken because the userarea is moved.
 - [Horizontal Sever List](https://github.com/DiscordStyles/HorizontalServerList) will interfere with the buttons and overlap with the server list, making it difficult to press some things.
+- [Lavender](https://github.com/Lavender-Discord/Lavender) will make the userarea entirely disappear.
