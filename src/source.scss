@@ -1,3 +1,4 @@
-@use 'base';
-@use './modules/os';
-@use './modules/animations';
+@use 'components/os';
+@use 'components/container';
+@use 'components/status-picker';
+@use 'components/animations';

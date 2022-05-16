@@ -1,3 +1,31 @@
+.platform-win .container-YkUktl {
+  top: 30px !important;
+}
+.platform-win .guilds-2JjMmN .tree-3agP2X {
+  margin-top: 72px;
+}
+
+.platform-osx .container-YkUktl {
+  top: 30px !important;
+}
+.platform-osx .guilds-2JjMmN .tree-3agP2X {
+  margin-top: 66px;
+}
+
+.platform-linux .container-YkUktl {
+  top: 8px !important;
+}
+.platform-linux .guilds-2JjMmN .tree-3agP2X {
+  margin-top: 64px;
+}
+
+.platform-web .container-YkUktl {
+  top: 8px !important;
+}
+.platform-web .guilds-2JjMmN .tree-3agP2X {
+  margin-top: 64px;
+}
+
 .container-1-ERn5 .header-3OsQeK,
 .searchBar-3TnChZ {
   z-index: 1;
@@ -185,34 +213,6 @@
 }
 #status-picker #status-picker-switch-account + .layer-2aCOJ3 {
   left: 50px !important;
-}
-
-.platform-win .container-YkUktl {
-  top: 30px !important;
-}
-.platform-win .guilds-2JjMmN .tree-3agP2X {
-  margin-top: 72px;
-}
-
-.platform-osx .container-YkUktl {
-  top: 30px !important;
-}
-.platform-osx .guilds-2JjMmN .tree-3agP2X {
-  margin-top: 66px;
-}
-
-.platform-linux .container-YkUktl {
-  top: 8px !important;
-}
-.platform-linux .guilds-2JjMmN .tree-3agP2X {
-  margin-top: 64px;
-}
-
-.platform-web .container-YkUktl {
-  top: 8px !important;
-}
-.platform-web .guilds-2JjMmN .tree-3agP2X {
-  margin-top: 64px;
 }
 
 @-webkit-keyframes top-bottom {
