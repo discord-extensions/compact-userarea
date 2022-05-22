@@ -28,3 +28,6 @@ Below are some known themes / plugins that will cause conflict with this theme a
 - [Spotify Discrd](https://github.com/CapnKitten/Spotify-Discord) will have slight displacement with the avatar, status picker items will be messed up, and the bar at the bottom will be a bit broken because the userarea is moved.
 - [Horizontal Sever List](https://github.com/DiscordStyles/HorizontalServerList) will interfere with the buttons and overlap with the server list, making it difficult to press some things.
 - [Lavender](https://github.com/Lavender-Discord/Lavender) will make the userarea entirely disappear.
+
+# Support Server
+If you are having any issues with the theme, feel free to join the [support server](https://discord.gg/vYdXbEzqDs), or make an issue on this repository.
