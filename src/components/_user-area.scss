@@ -1,0 +1,98 @@
+.panels-3wFtMD {
+    z-index: 0;
+    &:hover {
+        z-index: 5;
+    }
+    .container-YkUktl {
+        position: fixed;
+        top: 0;
+        left: 4px;
+        height: 52px;
+        border-radius: 25px;
+
+        // || Avatar
+        .avatarWrapper-1B9FTW {
+            width: 60px;
+            &::after {
+                content: '';
+                position: absolute;
+                left: 16px;
+                width: 32px;
+                height: 2px;
+                margin-top: 8px;
+                border-radius: 1px;
+                background-color: var(--background-modifier-accent);
+            }
+            // || Hover Animation
+            &:hover {
+                ~ .nameTag-sc-gpq.canCopy-IgTwyV, 
+                ~ .flex-2S1XBF:not(.spotify-buttons) {
+                    opacity: 1;
+                    pointer-events: all;
+                    animation: left-right 0.2s ease-in;
+                }
+            }
+            ~ .nameTag-sc-gpq.canCopy-IgTwyV, 
+            ~ .flex-2S1XBF:not(.spotify-buttons) {
+                transition: 250ms ease;
+                &:hover {
+                    opacity: 1;
+                    pointer-events: all;
+                    animation: left-right 0.2s ease-in;
+                }
+            }
+            // || Avatar Wrapper
+            .wrapper-1VLyxH {
+                --avatar-size: 48px;
+                width: var(--avatar-size) !important;
+                height: var(--avatar-size) !important;
+            }
+        }
+    
+        // || Username
+        .nameTag-sc-gpq {
+            order: 2;
+            opacity: 0;
+            min-width: 65px;
+            max-width: 75px;
+            padding: 2px 15px 2px 5px;
+            border-radius: 0 4px 4px 0;
+            box-shadow: var(--elevation-high);
+            background-color: var(--background-floating);
+            pointer-events: none;
+            .customStatus-1UAQAK {
+                opacity: 0;
+            }
+        }
+    
+        // || Buttons
+        .flex-2S1XBF {
+            opacity: 0;
+            padding: 2px;
+            border-radius: 4px 0 0 4px;
+            box-shadow: var(--elevation-high);
+            background-color: var(--background-floating);
+            pointer-events: none;
+            &:hover {
+                border-radius: 4px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: calc(50% - 4px);
+                width: 0;
+                height: 0;
+                margin-left: -12px;
+                border: 5px solid transparent;
+                border-top-color: var(--background-floating);
+                border-left-width: 5px;
+                transform: rotate(90deg);
+            }
+            .button-12Fmur {
+                width: 31px;
+                height: 31px;
+                border-radius: 3px;
+            }
+        }
+    }
+}
