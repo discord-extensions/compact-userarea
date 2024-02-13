@@ -16,8 +16,8 @@
             opacity: 0;
             content: "";
             position: absolute;
-            left: 58px;
-            width: calc(100% - 58px);
+            left: 68px;
+            width: calc(100% - 68px);
             height: calc(100% - 12px);
             border-radius: 5px;
             box-shadow: var(--elevation-high);
@@ -35,5 +35,16 @@
             opacity: 1;
             pointer-events: all;
         }
+    }
+}
+
+#app-mount:has(.accountProfilePopoutWrapper_af829a) .panels__58331 {
+    z-index: 0 !important;
+
+    .flex_f5fbb7,
+    .nameTag__0e320,
+    .container_ca50b9::before {
+        opacity: 0;
+        pointer-events: none;
     }
 }
