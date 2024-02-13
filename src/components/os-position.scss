@@ -6,13 +6,11 @@ $osTypeInfo:
 
 @each $os, $guildTop, $containerTop in $osTypeInfo {
     .platform-#{$os} {
-        // || User Area
-        .container-YkUktl {
+        .container_ca50b9 {
             top: $containerTop !important;
         }
         
-        // || Guilds
-        .guilds-2JjMmN .tree-3agP2X {
+        .guilds__2b93a > ul {
             margin-top: $guildTop;
         }
     }

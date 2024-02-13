@@ -1,3 +1,16 @@
+/**
+ * @name Compact Userarea
+ * @author LuckFire
+ * @description A compact, better looking, top-left user area.
+ * @version 2.0.0
+ * @invite vYdXbEzqDs
+ * @authorId 399416615742996480
+ * @source https://github.com/discord-extensions/compact-userarea
+ * @updateUrl https://github.com/discord-extensions/compact-userarea/blob/main/clients/compact-userarea.theme.css
+*/
+
+@import url("https://discord-extensions.github.io/compact-userarea/src/source.css");
+
 @keyframes top-bottom {
   0% {
     opacity: 0;

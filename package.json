@@ -1,0 +1,25 @@
+{
+  "name": "compact-userarea",
+  "version": "2.0.0",
+  "description": "A compact, better looking, top-left user area.",
+  "scripts": {
+    "dev": "theme-scss dev",
+    "build": "theme-scss build",
+    "bump:patch": "pnpm version --commit-hooks false --git-tag-version false patch",
+    "bump:minor": "pnpm version --commit-hooks false --git-tag-version false minor",
+    "bump:major": "pnpm version --commit-hooks false --git-tag-version false major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-extensions/compact-userarea.git"
+  },
+  "author": "LuckFire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discord-extensions/compact-userarea/issues"
+  },
+  "homepage": "https://github.com/discord-extensions/compact-userarea#readme",
+  "devDependencies": {
+    "theme-scss": "^1.1.4"
+  }
+}

@@ -1,0 +1,39 @@
+@use 'container';
+
+#app-mount .panels__58331 {
+    z-index: 0;
+
+    .container_ca50b9 {
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        left: 12px;
+        padding: 0;
+        background-color: transparent;
+
+        // tooltip drop shadow
+        &::before {
+            opacity: 0;
+            content: "";
+            position: absolute;
+            left: 58px;
+            width: calc(100% - 58px);
+            height: calc(100% - 12px);
+            border-radius: 5px;
+            box-shadow: var(--elevation-high);
+        }
+    }
+
+    &:has(.avatar_f8541f:hover),
+    &:has(.avatarWrapper_ba5175:hover),
+    &:has(.flex_f5fbb7:hover) {
+        z-index: 1004;
+        
+        .flex_f5fbb7,
+        .nameTag__0e320,
+        .container_ca50b9::before {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+}

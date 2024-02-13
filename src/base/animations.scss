@@ -18,3 +18,13 @@
         transform: none;
     }
 }
+@keyframes right-left {
+    0% {
+        opacity: 1;
+        transform: none;
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-4px);
+    }
+}

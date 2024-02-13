@@ -1,0 +1,57 @@
+#app-mount .container_ca50b9 .avatarWrapper_ba5175 {
+    --avatar-size: 48px;
+
+    position: relative;
+    min-width: unset;
+    padding: unset;
+    margin: unset;
+
+    &:hover {
+        background-color: transparent;
+    }
+
+    .avatar_f8541f {
+        width: var(--avatar-size) !important;
+        height: var(--avatar-size) !important;
+    
+        // divider
+        &::after {
+            content: '';
+            display: block;
+            position: relative;
+            pointer-events: none;
+            top: calc(100% + 8px);
+            width: calc(100% - 16px);
+            height: 2px;
+            margin: auto;
+            border-radius: 1px;
+            background-color: var(--background-modifier-accent);
+        }
+    
+        .mask__1979f {
+            width: var(--avatar-size) !important;
+            height: var(--avatar-size) !important;
+    
+            > foreignObject {
+                mask-image: url("#svg-mask-avatar-status-round-48");
+                width: 100%;
+                height: 100%;
+            }
+
+            .avatarStack__6604a {
+                content: var(--avatar-source-override, '');
+            }
+        }
+    
+        .pointerEvents__33f6a {
+            x: 30px;
+            y: 30px;
+        }
+    }
+
+    // These look so low quality.
+    // TODO: Make a list of higher quality URLs and apply them depending on the decoration.
+    .avatarDecoration_ae35e3 {
+        display: none;
+    }
+}

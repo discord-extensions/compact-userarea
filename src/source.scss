@@ -1,5 +1,4 @@
-@use './components/os-position';
-@use './components/status-picker';
-@use './components/user-area';
+@use 'base/animations';
 
-@use './base/animations';
+@use 'components/os-position';
+@use 'components/panel';

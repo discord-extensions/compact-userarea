@@ -1,0 +1,16 @@
+{
+    "name": "Compact Userarea",
+    "import": "https://discord-extensions.github.io/compact-userarea/src/source.css",
+    "metas": {
+        "betterdiscord": "clients/metas/betterdiscord.json",
+        "userstyle": "clients/metas/userstyle.json"
+    },
+    "dist": {
+        "clients": {
+            "compileFor": ["betterdiscord", "userstyle"]
+        }
+    },
+    "dev": {
+        "mod": "vencord"
+    }
+}

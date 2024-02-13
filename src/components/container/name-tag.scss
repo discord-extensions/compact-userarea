@@ -1,0 +1,39 @@
+#app-mount .container_ca50b9 .nameTag__0e320 {
+    opacity: 0;
+    pointer-events: none;
+    width: 75px;
+    max-width: 75px;
+    height: 40px;
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: var(--background-floating);
+
+    // tooltip arrow
+    &::before {
+        content: "";
+        position: absolute;
+        top: calc(50% - 4px);
+        width: 0;
+        height: 0;
+        margin-left: -14px;
+        border: 5px solid transparent;
+        border-top-color: var(--background-floating);
+        border-left-width: 5px;
+        transform: rotate(90deg);
+    }
+
+    .forceHover__71322 {
+        .default_cae228 {
+            transform: none;
+            opacity: 1;
+        }
+        .hovered__243e5 {
+            transform: none !important;
+            opacity: 0;
+        }
+    }
+}
