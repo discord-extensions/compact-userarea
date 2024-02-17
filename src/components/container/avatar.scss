@@ -53,13 +53,13 @@
         svg:has(~ .pointerEvents__33f6a:empty) {
             overflow: unset;
 
-            [id=":rd:"] rect {
-                x: 15px;
-                y: 13px;
+            > rect {
+                height: 25px !important;
             }
 
-            [mask="url(#:rd:)"] {
-                height: 25px !important;
+            > mask > rect {
+                x: 15px;
+                y: 13px;
             }
         }
     }
