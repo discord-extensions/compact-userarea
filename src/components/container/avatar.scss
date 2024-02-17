@@ -47,6 +47,21 @@
             x: 30px;
             y: 30px;
         }
+
+        // i dont even know *why* an element gets changed, but a scuffed fix for it.
+        // there is likely a better way to do this. :has isn't necessary but meh, lets you know when it's going to be changed.
+        svg:has(~ .pointerEvents__33f6a:empty) {
+            overflow: unset;
+
+            [id=":rd:"] rect {
+                x: 15px;
+                y: 13px;
+            }
+
+            [mask="url(#:rd:)"] {
+                height: 25px !important;
+            }
+        }
     }
 
     // These look so low quality.
