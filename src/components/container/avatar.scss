@@ -1,4 +1,4 @@
-#app-mount .container_ca50b9 .avatarWrapper_ba5175 {
+#app-mount .container_debb33 .avatarWrapper__500a6 {
     --avatar-size: 48px;
 
     position: relative;
@@ -28,7 +28,7 @@
             background-color: var(--background-modifier-accent);
         }
     
-        .mask__1979f {
+        .mask_d5067d {
             width: var(--avatar-size) !important;
             height: var(--avatar-size) !important;
     
@@ -38,19 +38,19 @@
                 height: 100%;
             }
 
-            .avatarStack__6604a {
+            .avatarStack__789b4 {
                 content: var(--avatar-source-override, '');
             }
         }
     
-        .pointerEvents__33f6a {
+        .pointerEvents__585e6 {
             x: 30px;
             y: 30px;
         }
 
         // i dont even know *why* an element gets changed, but a scuffed fix for it.
         // there is likely a better way to do this. :has isn't necessary but meh, lets you know when it's going to be changed.
-        svg:has(~ .pointerEvents__33f6a:empty) {
+        svg:has(~ .pointerEvents__585e6:empty) {
             overflow: unset;
 
             > rect {
@@ -66,7 +66,7 @@
 
     // These look so low quality.
     // TODO: Make a list of higher quality URLs and apply them depending on the decoration.
-    .avatarDecoration_ae35e3 {
+    .avatarDecoration_cf681a {
         display: none;
     }
 }

@@ -1,0 +1,50 @@
+#app-mount .accountProfilePopoutWrapper_d4887f {
+    left: 0;
+
+    // row align name contents
+    .userText_c26b46 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 5px;
+
+        .userTagUsernameBase__2bd24 {
+            line-height: 1.2;
+            color: var(--text-muted);
+            &:before {
+                content: '@'
+            }
+        }
+    }
+
+    // force it as the small height
+    .customStatusSoloEmoji__24b58 {
+        width: 20px;
+        height: 20px;
+    }
+
+    #account > .scroller__8f066 {
+        display: flex;
+
+        [role="group"] {
+            display: flex;
+            flex-direction: row;
+
+            .iconContainerLeft__80d26 {
+                margin-right: 0;
+            }
+
+            .iconContainer__5d61c {
+                margin-left: 0;
+            }
+        }
+
+        .separator__174fc {
+            display: none;
+        }
+
+        .label__563c3 {
+            display: none;
+        }
+    }
+}

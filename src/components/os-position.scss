@@ -6,7 +6,7 @@ $osTypeInfo:
 
 @each $os, $guildTop, $containerTop in $osTypeInfo {
     .platform-#{$os} {
-        .container_ca50b9 {
+        .container_debb33 {
             top: $containerTop !important;
         }
         

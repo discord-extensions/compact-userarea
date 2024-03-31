@@ -3,13 +3,13 @@
 #app-mount .panels__58331 {
     z-index: 0;
 
-    .container_ca50b9 {
+    .container_debb33 {
         position: fixed;
         display: flex;
         flex-direction: row;
         left: 12px;
         padding: 0;
-        background-color: transparent;
+        background: transparent !important;
 
         // tooltip drop shadow
         &::before {
@@ -24,27 +24,16 @@
         }
     }
 
-    &:has(.avatar_f8541f:hover),
-    &:has(.avatarWrapper_ba5175:hover),
-    &:has(.flex_f5fbb7:hover) {
+    &:has(.container_debb33 .avatar_f8541f:hover),
+    &:has(.container_debb33 .avatarWrapper__500a6:hover),
+    &:has(.container_debb33 .flex_f18b02:hover) {
         z-index: 1004;
         
-        .flex_f5fbb7,
-        .nameTag__0e320,
-        .container_ca50b9::before {
+        .flex_f18b02,
+        .nameTag__77ab2,
+        .container_debb33::before {
             opacity: 1;
             pointer-events: all;
         }
-    }
-}
-
-#app-mount:has(.accountProfilePopoutWrapper_af829a) .panels__58331 {
-    z-index: 0 !important;
-
-    .flex_f5fbb7,
-    .nameTag__0e320,
-    .container_ca50b9::before {
-        opacity: 0;
-        pointer-events: none;
     }
 }
