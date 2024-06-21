@@ -1,9 +1,9 @@
 @use 'container';
 
-#app-mount .panels__58331 {
+#app-mount .panels_a4d4d9 {
     z-index: 0;
 
-    .container_debb33 {
+    .container_b2ca13 {
         position: fixed;
         display: flex;
         flex-direction: row;
@@ -24,14 +24,14 @@
         }
     }
 
-    &:has(.container_debb33 .avatar_f8541f:hover),
-    &:has(.container_debb33 .avatarWrapper__500a6:hover),
-    &:has(.container_debb33 .flex_f18b02:hover) {
+    &:has(.container_b2ca13 .avatar_b2ca13:hover),
+    &:has(.container_b2ca13 .avatarWrapper_b2ca13:hover),
+    &:has(.container_b2ca13 .flex_bba380:hover) {
         z-index: 1004;
         
-        .flex_f18b02,
-        .nameTag__77ab2,
-        .container_debb33::before {
+        .flex_bba380,
+        .nameTag_b2ca13,
+        .container_b2ca13::before {
             opacity: 1;
             pointer-events: all;
         }
