@@ -14,7 +14,7 @@ https://discord-extensions.github.io/compact-userarea/src/source.css
 ```
 
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
-1. Install the broswer extensions for your repsective browser.
+1. Install the browser extensions for your respective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
 2. Once installed, open [this link](https://discord-extensions.github.io/compact-userea/clients/compact-userea.user.css) in a new browser tab. This opens the page where you will install this userstyle.
@@ -36,7 +36,7 @@ Avatar decorations will not display for the time being. I do have a way to upsca
 ---
 
 ### License
-This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.
+This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rights and limitations.
 
 ### Support
 If you've ran into an issue with an area being unthemed, **PLEASE REPORT IT IN AN ISSUE**. If you have some other issue you need help with, feel free to join my [support server](https://discord.gg/vYdXbEzqDs).

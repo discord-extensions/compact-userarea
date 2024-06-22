@@ -41,49 +41,49 @@
     transform: translateX(-4px);
   }
 }
-.platform-win .container_debb33 {
+.platform-win .container_b2ca13 {
   top: 30px !important;
 }
-.platform-win .guilds__2b93a {
+.platform-win .guilds_a4d4d9 {
   margin-top: 72px;
 }
 
-.platform-osx .container_debb33 {
+.platform-osx .container_b2ca13 {
   top: 30px !important;
 }
-.platform-osx .guilds__2b93a {
+.platform-osx .guilds_a4d4d9 {
   margin-top: 66px;
 }
 
-.platform-linux .container_debb33 {
+.platform-linux .container_b2ca13 {
   top: 8px !important;
 }
-.platform-linux .guilds__2b93a {
+.platform-linux .guilds_a4d4d9 {
   margin-top: 64px;
 }
 
-.platform-web .container_debb33 {
+.platform-web .container_b2ca13 {
   top: 8px !important;
 }
-.platform-web .guilds__2b93a {
+.platform-web .guilds_a4d4d9 {
   margin-top: 64px;
 }
 
-#app-mount .container_debb33 .avatarWrapper__500a6 {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 {
   --avatar-size: 48px;
   position: relative;
   min-width: unset;
   padding: unset;
   margin: unset;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6:hover {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13:hover {
   background-color: transparent;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f::after {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13::after {
   content: "";
   display: block;
   position: relative;
@@ -95,37 +95,37 @@
   border-radius: 1px;
   background-color: var(--background-modifier-accent);
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f .mask_d5067d {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 .mask_c51b4e {
   width: var(--avatar-size) !important;
   height: var(--avatar-size) !important;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f .mask_d5067d > foreignObject {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 .mask_c51b4e > foreignObject {
   mask-image: url("#svg-mask-avatar-status-round-48");
   width: 100%;
   height: 100%;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f .mask_d5067d .avatarStack__789b4 {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 .mask_c51b4e .avatarStack_c51b4e {
   content: var(--avatar-source-override, "");
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f .pointerEvents__585e6 {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 .pointerEvents_c51b4e {
   x: 30px;
   y: 30px;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f svg:has(~ .pointerEvents__585e6:empty) {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 svg:has(~ .pointerEvents_c51b4e:empty) {
   overflow: unset;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f svg:has(~ .pointerEvents__585e6:empty) > rect {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 svg:has(~ .pointerEvents_c51b4e:empty) > rect {
   height: 25px !important;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatar_f8541f svg:has(~ .pointerEvents__585e6:empty) > mask > rect {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatar_b2ca13 svg:has(~ .pointerEvents_c51b4e:empty) > mask > rect {
   x: 15px;
   y: 13px;
 }
-#app-mount .container_debb33 .avatarWrapper__500a6 .avatarDecoration_cf681a {
+#app-mount .container_b2ca13 .avatarWrapper_b2ca13 .avatarDecoration_c51b4e {
   display: none;
 }
 
-#app-mount .container_debb33 .flex_f18b02 {
+#app-mount .container_b2ca13 .flex_bba380 {
   opacity: 0;
   position: relative;
   align-items: center;
@@ -138,7 +138,7 @@
   background-color: var(--background-floating);
 }
 
-#app-mount .container_debb33 .nameTag__77ab2 {
+#app-mount .container_b2ca13 .nameTag_b2ca13 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,7 +155,7 @@
   border-bottom-left-radius: 5px;
   background-color: var(--background-floating);
 }
-#app-mount .container_debb33 .nameTag__77ab2::before {
+#app-mount .container_b2ca13 .nameTag_b2ca13::before {
   content: "";
   position: absolute;
   top: calc(50% - 4px);
@@ -167,19 +167,19 @@
   border-left-width: 5px;
   transform: rotate(90deg);
 }
-#app-mount .container_debb33 .nameTag__77ab2 .forceHover__733de .default__74311 {
+#app-mount .container_b2ca13 .nameTag_b2ca13 .forceHover_c0d6c6 .default_c0d6c6 {
   transform: none;
   opacity: 1;
 }
-#app-mount .container_debb33 .nameTag__77ab2 .forceHover__733de .hovered__5a165 {
+#app-mount .container_b2ca13 .nameTag_b2ca13 .forceHover_c0d6c6 .hovered_c0d6c6 {
   transform: none !important;
   opacity: 0;
 }
 
-#app-mount .panels__58331 {
+#app-mount .panels_a4d4d9 {
   z-index: 0;
 }
-#app-mount .panels__58331 .container_debb33 {
+#app-mount .panels_a4d4d9 .container_b2ca13 {
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -187,7 +187,7 @@
   padding: 0;
   background: transparent !important;
 }
-#app-mount .panels__58331 .container_debb33::before {
+#app-mount .panels_a4d4d9 .container_b2ca13::before {
   opacity: 0;
   content: "";
   position: absolute;
@@ -197,16 +197,16 @@
   border-radius: 5px;
   box-shadow: var(--elevation-high);
 }
-#app-mount .panels__58331:has(.container_debb33 .avatar_f8541f:hover), #app-mount .panels__58331:has(.container_debb33 .avatarWrapper__500a6:hover), #app-mount .panels__58331:has(.container_debb33 .flex_f18b02:hover) {
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatar_b2ca13:hover), #app-mount .panels_a4d4d9:has(.container_b2ca13 .avatarWrapper_b2ca13:hover), #app-mount .panels_a4d4d9:has(.container_b2ca13 .flex_bba380:hover) {
   z-index: 1004;
 }
-#app-mount .panels__58331:has(.container_debb33 .avatar_f8541f:hover) .flex_f18b02,
-#app-mount .panels__58331:has(.container_debb33 .avatar_f8541f:hover) .nameTag__77ab2,
-#app-mount .panels__58331:has(.container_debb33 .avatar_f8541f:hover) .container_debb33::before, #app-mount .panels__58331:has(.container_debb33 .avatarWrapper__500a6:hover) .flex_f18b02,
-#app-mount .panels__58331:has(.container_debb33 .avatarWrapper__500a6:hover) .nameTag__77ab2,
-#app-mount .panels__58331:has(.container_debb33 .avatarWrapper__500a6:hover) .container_debb33::before, #app-mount .panels__58331:has(.container_debb33 .flex_f18b02:hover) .flex_f18b02,
-#app-mount .panels__58331:has(.container_debb33 .flex_f18b02:hover) .nameTag__77ab2,
-#app-mount .panels__58331:has(.container_debb33 .flex_f18b02:hover) .container_debb33::before {
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatar_b2ca13:hover) .flex_bba380,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatar_b2ca13:hover) .nameTag_b2ca13,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatar_b2ca13:hover) .container_b2ca13::before, #app-mount .panels_a4d4d9:has(.container_b2ca13 .avatarWrapper_b2ca13:hover) .flex_bba380,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatarWrapper_b2ca13:hover) .nameTag_b2ca13,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .avatarWrapper_b2ca13:hover) .container_b2ca13::before, #app-mount .panels_a4d4d9:has(.container_b2ca13 .flex_bba380:hover) .flex_bba380,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .flex_bba380:hover) .nameTag_b2ca13,
+#app-mount .panels_a4d4d9:has(.container_b2ca13 .flex_bba380:hover) .container_b2ca13::before {
   opacity: 1;
   pointer-events: all;
 }

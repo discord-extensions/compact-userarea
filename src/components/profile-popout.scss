@@ -1,14 +1,14 @@
-#app-mount .accountProfilePopoutWrapper_d4887f {
+#app-mount .accountProfilePopoutWrapper_b2ca13 {
     left: 0;
 
     // row align name contents
-    .userText_c26b46 {
+    .userText_c9ccf6 {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         gap: 5px;
 
-        .userTagUsernameBase__2bd24 {
+        .userTagUsernameBase_c9ccf6 {
             line-height: 1.2;
             color: var(--text-muted);
             &:before {
@@ -18,32 +18,32 @@
     }
 
     // force it as the small height
-    .customStatusSoloEmoji__24b58 {
+    .customStatusSoloEmoji_cb55fc {
         width: 20px;
         height: 20px;
     }
 
-    #account > .scroller__8f066 {
+    #account > .scroller_d90b3d {
         display: flex;
 
         [role="group"] {
             display: flex;
             flex-direction: row;
 
-            .iconContainerLeft__80d26 {
+            .iconContainerLeft_d90b3d {
                 margin-right: 0;
             }
 
-            .iconContainer__5d61c {
+            .iconContainer_d90b3d {
                 margin-left: 0;
             }
         }
 
-        .separator__174fc {
+        .separator_d90b3d {
             display: none;
         }
 
-        .label__563c3 {
+        .label_d90b3d {
             display: none;
         }
     }
